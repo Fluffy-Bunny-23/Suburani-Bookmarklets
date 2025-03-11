@@ -1,0 +1,1 @@
+javascript:(function(){var u=prompt("Enter the translation number. e.g. 7.3");if(u)window.location.href="https://hands-up-education.org/suburani_full/activities/automark.html?fn=%22+u.replace(/\./g,%22-%22);})();

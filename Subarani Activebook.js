@@ -1,0 +1,1 @@
+javascript:(function(){var n=prompt("Enter the chapter number (1-40):");if(n&&!isNaN(n)&&Number(n)<=40)window.location.href="https://hands-up-education.org/suburani_full/activebooks/activebook.html?n=%22+n;else%20alert(n%3E40?%22Error:%20Chapter%20number%20must%20not%20be%20above%2040.%22:%22Please%20enter%20a%20valid%20number.%22);})();
