@@ -8,6 +8,6 @@ Suburani Bookmarklets is my personal collection of Bookmarklets to help with qui
 
 [Youtube Video](https://youtu.be/JmdDY4n4rtU)
 
-## Discolsure
+## Disclosure
 
 This code was made using Generative AI, an OpenAI free account, to be specific.
