@@ -2,7 +2,7 @@
 
 ## What it is
 
-Suburani Bookmarklets is my personal collection of Bookmarklets to help with quickly navigating suburani.
+Suburani Bookmarklets is my personal collection of Bookmarklets to help with quickly navigating Suburani.
 
 ## How to Use it
 
