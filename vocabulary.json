@@ -1,0 +1,3202 @@
+[
+  {
+    "latin": "dormiō, dormīre, dormīvī",
+    "english": "sleep"
+  },
+  {
+    "latin": "ego",
+    "english": "I"
+  },
+  {
+    "latin": "frāter, frātrem, m.",
+    "english": "brother"
+  },
+  {
+    "latin": "hōra, hōram, f.",
+    "english": "hour"
+  },
+  {
+    "latin": "in + abl.",
+    "english": "in, on"
+  },
+  {
+    "latin": "īnsula, īnsulam, f.",
+    "english": "apartment building"
+  },
+  {
+    "latin": "labōrō, labōrāre, labōrāvī",
+    "english": "work"
+  },
+  {
+    "latin": "legō, legere, lēgī",
+    "english": "read"
+  },
+  {
+    "latin": "meus, mea, meum",
+    "english": "my"
+  },
+  {
+    "latin": "nōn",
+    "english": "not"
+  },
+  {
+    "latin": "pater, patrem, m.",
+    "english": "father"
+  },
+  {
+    "latin": "rīdeō, rīdēre, rīsī",
+    "english": "laugh, smile"
+  },
+  {
+    "latin": "servus, servum, m.",
+    "english": "slave, enslaved person (male)"
+  },
+  {
+    "latin": "tū",
+    "english": "you (singular)"
+  },
+  {
+    "latin": "turba, turbam, f.",
+    "english": "crowd"
+  },
+  {
+    "latin": "ubi?",
+    "english": "where?"
+  },
+  {
+    "latin": "via, viam, f.",
+    "english": "street, road, way"
+  },
+  {
+    "latin": "sum, esse, fuī",
+    "english": "be"
+  },
+  {
+    "latin": "es",
+    "english": "you (singular) are"
+  },
+  {
+    "latin": "est",
+    "english": "(he/she/it) is"
+  },
+  {
+    "latin": "cadō, cadere, cecidī",
+    "english": "fall"
+  },
+  {
+    "latin": "cibus, cibum, m.",
+    "english": "food"
+  },
+  {
+    "latin": "dūcō, dūcere, dūxī",
+    "english": "lead, take"
+  },
+  {
+    "latin": "et",
+    "english": "and"
+  },
+  {
+    "latin": "fīlia, fīliam, f.",
+    "english": "daughter"
+  },
+  {
+    "latin": "fīlius, fīlium, m.",
+    "english": "son"
+  },
+  {
+    "latin": "forum, forum, n.",
+    "english": "forum, marketplace"
+  },
+  {
+    "latin": "habeō, habēre, habuī",
+    "english": "have, hold"
+  },
+  {
+    "latin": "habitō, habitāre, habitāvī",
+    "english": "live"
+  },
+  {
+    "latin": "intrō, intrāre, intrāvī",
+    "english": "enter"
+  },
+  {
+    "latin": "magnus, magna, magnum",
+    "english": "big, large, great"
+  },
+  {
+    "latin": "pecūnia, pecūniam, f.",
+    "english": "money, sum of money"
+  },
+  {
+    "latin": "quaerō, quaerere, quaesīvī",
+    "english": "search for, look for, ask"
+  },
+  {
+    "latin": "quoque",
+    "english": "also, too"
+  },
+  {
+    "latin": "salūtō, salūtāre, salūtāvī",
+    "english": "greet"
+  },
+  {
+    "latin": "sed",
+    "english": "but"
+  },
+  {
+    "latin": "spectō, spectāre, spectāvī",
+    "english": "look at, watch"
+  },
+  {
+    "latin": "videō, vidēre, vīdī",
+    "english": "see"
+  },
+  {
+    "latin": "vīnum, vīnum, n.",
+    "english": "wine"
+  },
+  {
+    "latin": "vocō, vocāre, vocāvī",
+    "english": "call"
+  },
+  {
+    "latin": "ambulō, ambulāre, ambulāvī",
+    "english": "walk"
+  },
+  {
+    "latin": "amīcus, amīcum, m.",
+    "english": "friend"
+  },
+  {
+    "latin": "ancilla, ancillam, f.",
+    "english": "slave, enslaved person (female)"
+  },
+  {
+    "latin": "clāmō, clāmāre, clāmāvī",
+    "english": "shout"
+  },
+  {
+    "latin": "clāmor, clāmōrem, m.",
+    "english": "shout, shouting, noise"
+  },
+  {
+    "latin": "cum + abl.",
+    "english": "with"
+  },
+  {
+    "latin": "currō, currere, cucurrī",
+    "english": "run"
+  },
+  {
+    "latin": "dīcō, dīcere, dīxī",
+    "english": "say, speak, tell"
+  },
+  {
+    "latin": "equus, equum, m.",
+    "english": "horse"
+  },
+  {
+    "latin": "festīnō, festīnāre, festīnāvī",
+    "english": "hurry"
+  },
+  {
+    "latin": "gladius, gladium, m.",
+    "english": "sword"
+  },
+  {
+    "latin": "īnfēlīx, īnfēlīcis",
+    "english": "unlucky, unhappy"
+  },
+  {
+    "latin": "laetus, laeta, laetum",
+    "english": "happy"
+  },
+  {
+    "latin": "multus, multa, multum",
+    "english": "much, many"
+  },
+  {
+    "latin": "omnis, omnis, omne",
+    "english": "all, every"
+  },
+  {
+    "latin": "per + acc.",
+    "english": "through, along"
+  },
+  {
+    "latin": "prīmus, prīma, prīmum",
+    "english": "first"
+  },
+  {
+    "latin": "senātor, senātōrem, m.",
+    "english": "senator"
+  },
+  {
+    "latin": "urbs, urbem, f.",
+    "english": "city"
+  },
+  {
+    "latin": "vincō, vincere, vīcī",
+    "english": "conquer, win, am victorious"
+  },
+  {
+    "latin": "ad + acc.",
+    "english": "to, towards; at"
+  },
+  {
+    "latin": "adsum, adesse, adfuī",
+    "english": "be here, be present"
+  },
+  {
+    "latin": "deus, deum, m.",
+    "english": "god"
+  },
+  {
+    "latin": "dominus, dominum, m.",
+    "english": "master"
+  },
+  {
+    "latin": "dōnum, dōnum, n.",
+    "english": "gift, present"
+  },
+  {
+    "latin": "laudō, laudāre, laudāvī",
+    "english": "praise"
+  },
+  {
+    "latin": "nōs",
+    "english": "we, us"
+  },
+  {
+    "latin": "parvus, parva, parvum",
+    "english": "small"
+  },
+  {
+    "latin": "perīculum, perīculum, n.",
+    "english": "danger"
+  },
+  {
+    "latin": "perterritus, perterrita, perterritum",
+    "english": "terrified"
+  },
+  {
+    "latin": "puella, puellam, f.",
+    "english": "girl"
+  },
+  {
+    "latin": "quod",
+    "english": "because"
+  },
+  {
+    "latin": "rēx, rēgem, m.",
+    "english": "king"
+  },
+  {
+    "latin": "Rōmānus, Rōmāna, Romanum",
+    "english": "Roman"
+  },
+  {
+    "latin": "subitō",
+    "english": "suddenly"
+  },
+  {
+    "latin": "templum, templum, n.",
+    "english": "temple"
+  },
+  {
+    "latin": "teneō, tenēre, tenuī",
+    "english": "hold, keep, possess"
+  },
+  {
+    "latin": "tollō, tollere, sustulī",
+    "english": "raise, lift up, hold up"
+  },
+  {
+    "latin": "veniō, venīre, vēnī",
+    "english": "come"
+  },
+  {
+    "latin": "vōs",
+    "english": "you (plural)"
+  },
+  {
+    "latin": "aqua, aquam, f.",
+    "english": "water"
+  },
+  {
+    "latin": "audiō, audīre, audīvī",
+    "english": "hear, listen to"
+  },
+  {
+    "latin": "cupiō, cupere, cupīvī",
+    "english": "want, desire"
+  },
+  {
+    "latin": "custōs, custōdem, m.f.",
+    "english": "guard"
+  },
+  {
+    "latin": "dēbeō, dēbēre, dēbuī",
+    "english": "owe"
+  },
+  {
+    "latin": "dō, dare, dedī",
+    "english": "give"
+  },
+  {
+    "latin": "effugiō, effugere, effūgī",
+    "english": "escape"
+  },
+  {
+    "latin": "iuvenis, iuvenem, m.f.",
+    "english": "young person"
+  },
+  {
+    "latin": "maneō, manēre, mānsī",
+    "english": "remain, stay"
+  },
+  {
+    "latin": "nēmō, nēminem, m.f.",
+    "english": "no one, nobody"
+  },
+  {
+    "latin": "nōlō, nōlle, nōluī",
+    "english": "don’t want, refuse"
+  },
+  {
+    "latin": "nox, noctem, f.",
+    "english": "night"
+  },
+  {
+    "latin": "portō, portāre, portāvī",
+    "english": "carry, bear, take"
+  },
+  {
+    "latin": "possum, posse, potuī",
+    "english": "can, am able"
+  },
+  {
+    "latin": "pulcher, pulchra, pulchrum",
+    "english": "beautiful, handsome"
+  },
+  {
+    "latin": "respondeō, respondēre, respondī",
+    "english": "reply"
+  },
+  {
+    "latin": "taceō, tacēre, tacuī",
+    "english": "am silent, am quiet"
+  },
+  {
+    "latin": "timeō, timēre, timuī",
+    "english": "fear, am afraid"
+  },
+  {
+    "latin": "vēndō, vēndere, vēndidī",
+    "english": "sell"
+  },
+  {
+    "latin": "volō, velle, voluī",
+    "english": "want, wish, am willing"
+  },
+  {
+    "latin": "ā, ab + abl.",
+    "english": "from, away from"
+  },
+  {
+    "latin": "capiō, capere, cēpī",
+    "english": "take, catch, capture, adopt (a plan)"
+  },
+  {
+    "latin": "diēs, diem, f.",
+    "english": "day"
+  },
+  {
+    "latin": "discēdō, discēdere, discessī",
+    "english": "depart, leave"
+  },
+  {
+    "latin": "ē, ex + abl.",
+    "english": "from, out of"
+  },
+  {
+    "latin": "exspectō, exspectāre, exspectāvī",
+    "english": "wait for, expect"
+  },
+  {
+    "latin": "faciō, facere, fēcī",
+    "english": "make, do"
+  },
+  {
+    "latin": "iam",
+    "english": "now, already"
+  },
+  {
+    "latin": "in + acc.",
+    "english": "into, onto"
+  },
+  {
+    "latin": "inquit",
+    "english": "says"
+  },
+  {
+    "latin": "marītus, marītum, m.",
+    "english": "husband"
+  },
+  {
+    "latin": "māter, mātrem, f.",
+    "english": "mother"
+  },
+  {
+    "latin": "prope + acc.",
+    "english": "near"
+  },
+  {
+    "latin": "rogō, rogāre, rogāvī",
+    "english": "ask, ask for"
+  },
+  {
+    "latin": "sedeō, sedēre, sēdī",
+    "english": "sit"
+  },
+  {
+    "latin": "stō, stāre, stetī",
+    "english": "stand"
+  },
+  {
+    "latin": "tōtus, tōta, tōtum",
+    "english": "whole"
+  },
+  {
+    "latin": "trīstis, trīstis, trīste",
+    "english": "sad"
+  },
+  {
+    "latin": "tuus, tua, tuum",
+    "english": "your (singular), yours"
+  },
+  {
+    "latin": "uxor, uxōrem, f.",
+    "english": "wife"
+  },
+  {
+    "latin": "appropinquō, appropinquāre, appropinquāvī + dat.",
+    "english": "approach, come near to"
+  },
+  {
+    "latin": "cūr?",
+    "english": "why?"
+  },
+  {
+    "latin": "epistula, epistulam, f.",
+    "english": "letter"
+  },
+  {
+    "latin": "homō, hominem, m.",
+    "english": "man, person"
+  },
+  {
+    "latin": "ingēns, ingentis",
+    "english": "huge"
+  },
+  {
+    "latin": "īnsula, īnsulam, f.",
+    "english": "island; apartment building"
+  },
+  {
+    "latin": "mīles, mīlitem, m.",
+    "english": "soldier"
+  },
+  {
+    "latin": "minimē",
+    "english": "no"
+  },
+  {
+    "latin": "nārrō, nārrāre, nārrāvī",
+    "english": "tell, relate"
+  },
+  {
+    "latin": "nauta, nautam, m.",
+    "english": "sailor"
+  },
+  {
+    "latin": "nunc",
+    "english": "now"
+  },
+  {
+    "latin": "ōlim",
+    "english": "once, some time ago"
+  },
+  {
+    "latin": "pars, partem, f.",
+    "english": "part"
+  },
+  {
+    "latin": "puer, puerum, m.",
+    "english": "boy"
+  },
+  {
+    "latin": "pugnō, pugnāre, pugnāvī",
+    "english": "fight"
+  },
+  {
+    "latin": "rēs, rem, f.",
+    "english": "thing, story"
+  },
+  {
+    "latin": "saepe",
+    "english": "often"
+  },
+  {
+    "latin": "silva, silvam, f.",
+    "english": "wood, forest"
+  },
+  {
+    "latin": "tum",
+    "english": "then"
+  },
+  {
+    "latin": "vehementer",
+    "english": "loudly, violently, strongly"
+  },
+  {
+    "latin": "agō, agere, ēgī",
+    "english": "do"
+  },
+  {
+    "latin": "bibō, bibere, bibī",
+    "english": "drink"
+  },
+  {
+    "latin": "cōnspiciō, cōnspicere, cōnspexī",
+    "english": "catch sight of, notice"
+  },
+  {
+    "latin": "dē + abl.",
+    "english": "from, down from; about"
+  },
+  {
+    "latin": "domus, domum, f.",
+    "english": "house, home"
+  },
+  {
+    "latin": "eam",
+    "english": "her; it"
+  },
+  {
+    "latin": "eum",
+    "english": "him; it"
+  },
+  {
+    "latin": "gerō, gerere, gessī",
+    "english": "wear"
+  },
+  {
+    "latin": "iaceō, iacēre, iacuī",
+    "english": "lie down"
+  },
+  {
+    "latin": "incendō, incendere, incendī",
+    "english": "burn, set on fire"
+  },
+  {
+    "latin": "mox",
+    "english": "soon"
+  },
+  {
+    "latin": "nihil",
+    "english": "nothing"
+  },
+  {
+    "latin": "noster, nostra, nostrum",
+    "english": "our"
+  },
+  {
+    "latin": "porta, portam, f.",
+    "english": "gate"
+  },
+  {
+    "latin": "postquam",
+    "english": "after"
+  },
+  {
+    "latin": "prōcēdō, prōcēdere, prōcessī",
+    "english": "go along, proceed"
+  },
+  {
+    "latin": "senex, senem, m.f.",
+    "english": "old person"
+  },
+  {
+    "latin": "surgō, surgere, surrēxī",
+    "english": "get up"
+  },
+  {
+    "latin": "tandem",
+    "english": "at last, finally"
+  },
+  {
+    "latin": "trāns + acc.",
+    "english": "across"
+  },
+  {
+    "latin": "adveniō, advenīre, advēnī",
+    "english": "arrive"
+  },
+  {
+    "latin": "cīvis, cīvem, m.f.",
+    "english": "citizen"
+  },
+  {
+    "latin": "difficilis, difficilis, difficile",
+    "english": "difficult"
+  },
+  {
+    "latin": "domina, dominam, f.",
+    "english": "mistress, lady"
+  },
+  {
+    "latin": "gravis, gravis, grave",
+    "english": "heavy; serious"
+  },
+  {
+    "latin": "hostis, hostem, m.",
+    "english": "enemy"
+  },
+  {
+    "latin": "imperātor, imperātōrem, m.",
+    "english": "emperor, general"
+  },
+  {
+    "latin": "īrātus, īrāta, īrātum",
+    "english": "angry"
+  },
+  {
+    "latin": "iter, iter, n.",
+    "english": "journey, route, way"
+  },
+  {
+    "latin": "lacrimō, lacrimāre, lacrimāvī",
+    "english": "cry, weep"
+  },
+  {
+    "latin": "līberī, līberōs, m. pl.",
+    "english": "children"
+  },
+  {
+    "latin": "medius, media, medium",
+    "english": "middle, middle of"
+  },
+  {
+    "latin": "nūntius, nūntium, m.",
+    "english": "messenger; message, news"
+  },
+  {
+    "latin": "paucī, paucae, pauca",
+    "english": "few, a few"
+  },
+  {
+    "latin": "petō, petere, petīvī",
+    "english": "attack; seek, beg, ask for"
+  },
+  {
+    "latin": "sanguis, sanguinem, m.",
+    "english": "blood"
+  },
+  {
+    "latin": "statim",
+    "english": "immediately, at once"
+  },
+  {
+    "latin": "trādō, trādere, trādidī",
+    "english": "hand over, hand down"
+  },
+  {
+    "latin": "vir, virum, m.",
+    "english": "man"
+  },
+  {
+    "latin": "vīta, vītam, f.",
+    "english": "life"
+  },
+  {
+    "latin": "accipiō, accipere, accēpī",
+    "english": "accept, take in, receive"
+  },
+  {
+    "latin": "alius, alia, aliud",
+    "english": "another, other"
+  },
+  {
+    "latin": "annus, annum, m.",
+    "english": "year"
+  },
+  {
+    "latin": "bonus, bona, bonum",
+    "english": "good"
+  },
+  {
+    "latin": "contrā + acc.",
+    "english": "against"
+  },
+  {
+    "latin": "dea, deam, f.",
+    "english": "goddess"
+  },
+  {
+    "latin": "deinde",
+    "english": "then"
+  },
+  {
+    "latin": "ferō, ferre, tulī",
+    "english": "bring, carry, bear"
+  },
+  {
+    "latin": "fidēlis, fidēlis, fidēle",
+    "english": "loyal, faithful, trustworthy"
+  },
+  {
+    "latin": "iaciō, iacere, iēcī",
+    "english": "throw"
+  },
+  {
+    "latin": "locus, locum, m.",
+    "english": "place"
+  },
+  {
+    "latin": "miser, misera, miserum",
+    "english": "poor, unfortunate"
+  },
+  {
+    "latin": "novus, nova, novum",
+    "english": "new"
+  },
+  {
+    "latin": "nūllus, nūlla, nūllum",
+    "english": "no, not any"
+  },
+  {
+    "latin": "occīdō, occīdere, occīdī",
+    "english": "kill"
+  },
+  {
+    "latin": "pāx, pācem, f.",
+    "english": "peace"
+  },
+  {
+    "latin": "pereō, perīre, periī",
+    "english": "die, perish"
+  },
+  {
+    "latin": "quam … !",
+    "english": "how … !"
+  },
+  {
+    "latin": "sacer, sacra, sacrum",
+    "english": "sacred, holy"
+  },
+  {
+    "latin": "sub + acc. or abl.",
+    "english": "under, below, beneath"
+  },
+  {
+    "latin": "absum, abesse, āfuī",
+    "english": "am out, absent, away"
+  },
+  {
+    "latin": "accidō, accidere, accidī",
+    "english": "happen"
+  },
+  {
+    "latin": "altus, alta, altum",
+    "english": "high, deep"
+  },
+  {
+    "latin": "bene",
+    "english": "well"
+  },
+  {
+    "latin": "dux, ducem, m.",
+    "english": "leader"
+  },
+  {
+    "latin": "flūmen, flūmen, n.",
+    "english": "river"
+  },
+  {
+    "latin": "fortis, fortis, forte",
+    "english": "brave"
+  },
+  {
+    "latin": "frūstrā",
+    "english": "in vain, without success"
+  },
+  {
+    "latin": "fugiō, fugere, fūgī",
+    "english": "run away, flee"
+  },
+  {
+    "latin": "hodiē",
+    "english": "today"
+  },
+  {
+    "latin": "ibi",
+    "english": "there"
+  },
+  {
+    "latin": "inveniō, invenīre, invēnī",
+    "english": "find"
+  },
+  {
+    "latin": "itaque",
+    "english": "and so, therefore"
+  },
+  {
+    "latin": "mare, mare, n.",
+    "english": "sea"
+  },
+  {
+    "latin": "nāvigō, nāvigāre, nāvigāvī",
+    "english": "sail"
+  },
+  {
+    "latin": "nāvis, nāvem, f.",
+    "english": "ship"
+  },
+  {
+    "latin": "prō + abl.",
+    "english": "in front of; for"
+  },
+  {
+    "latin": "saevus, saeva, saevum",
+    "english": "savage, cruel"
+  },
+  {
+    "latin": "sōlus, sōla, sōlum",
+    "english": "alone, only, lonely, on one’s own"
+  },
+  {
+    "latin": "ubi",
+    "english": "where? where, when"
+  },
+  {
+    "latin": "caelum, caelum, n.",
+    "english": "sky, heaven"
+  },
+  {
+    "latin": "caput, caput, n.",
+    "english": "head"
+  },
+  {
+    "latin": "corpus, corpus, n.",
+    "english": "body"
+  },
+  {
+    "latin": "crūdēlis, crūdēlis, crūdēle",
+    "english": "cruel"
+  },
+  {
+    "latin": "dēleō, dēlēre, dēlēvī",
+    "english": "destroy"
+  },
+  {
+    "latin": "diū",
+    "english": "for a long time"
+  },
+  {
+    "latin": "iānua, iānuam, f.",
+    "english": "door, doorway"
+  },
+  {
+    "latin": "iterum",
+    "english": "again"
+  },
+  {
+    "latin": "mittō, mittere, mīsī",
+    "english": "send"
+  },
+  {
+    "latin": "offerō, offerre, obtulī",
+    "english": "offer"
+  },
+  {
+    "latin": "quis",
+    "english": "who? what?"
+  },
+  {
+    "latin": "redeō, redīre, rediī",
+    "english": "go back, come back, return"
+  },
+  {
+    "latin": "Rōma, Rōmam, f.",
+    "english": "Rome"
+  },
+  {
+    "latin": "servō, servāre, servāvī",
+    "english": "save, protect, keep, look after"
+  },
+  {
+    "latin": "stultus, stulta, stultum",
+    "english": "stupid, foolish"
+  },
+  {
+    "latin": "superō, superāre, superāvī",
+    "english": "overcome, overpower"
+  },
+  {
+    "latin": "taberna, tabernam, f.",
+    "english": "shop, inn"
+  },
+  {
+    "latin": "terra, terram, f.",
+    "english": "ground"
+  },
+  {
+    "latin": "trahō, trahere, trāxī",
+    "english": "drag, draw, pull"
+  },
+  {
+    "latin": "vōx, vōcem, f.",
+    "english": "voice, shout"
+  },
+  {
+    "latin": "coepī, coepisse, coeptus",
+    "english": "began"
+  },
+  {
+    "latin": "cōnsūmō, cōnsūmere, cōnsūmpsī",
+    "english": "consume, eat"
+  },
+  {
+    "latin": "intellegō, intellegere, intellēxī",
+    "english": "understand, realize"
+  },
+  {
+    "latin": "inter + acc.",
+    "english": "among, between"
+  },
+  {
+    "latin": "ita vērō",
+    "english": "yes, absolutely"
+  },
+  {
+    "latin": "labor, labōrem, m.",
+    "english": "work"
+  },
+  {
+    "latin": "longus, longa, longum",
+    "english": "long"
+  },
+  {
+    "latin": "mūrus, mūrum, m.",
+    "english": "wall"
+  },
+  {
+    "latin": "nōmen, nōmen, n.",
+    "english": "name"
+  },
+  {
+    "latin": "parō, parāre, parāvī",
+    "english": "prepare"
+  },
+  {
+    "latin": "post + acc.",
+    "english": "after, behind"
+  },
+  {
+    "latin": "praemium, praemium, n.",
+    "english": "prize, reward, profit"
+  },
+  {
+    "latin": "quamquam",
+    "english": "although"
+  },
+  {
+    "latin": "quī",
+    "english": "who, which"
+  },
+  {
+    "latin": "quōmodo?",
+    "english": "how? in what way?"
+  },
+  {
+    "latin": "semper",
+    "english": "always"
+  },
+  {
+    "latin": "summus, summa, summum",
+    "english": "highest, greatest, top (of)"
+  },
+  {
+    "latin": "suus, sua, suum",
+    "english": "her, his, its, their (own)"
+  },
+  {
+    "latin": "tamen",
+    "english": "however"
+  },
+  {
+    "latin": "vīvō, vīvere, vīxī",
+    "english": "live, am alive"
+  },
+  {
+    "latin": "amō, amāre, amāvī",
+    "english": "love, like"
+  },
+  {
+    "latin": "amor, amōrem, m.",
+    "english": "love"
+  },
+  {
+    "latin": "cōgitō, cōgitāre, cōgitāvī",
+    "english": "think, consider"
+  },
+  {
+    "latin": "cōnficiō, cōnficere, cōnfēcī",
+    "english": "finish"
+  },
+  {
+    "latin": "cōnsilium, cōnsilium, n.",
+    "english": "plan, idea, advice"
+  },
+  {
+    "latin": "cōnstituō, cōnstituere, cōnstituī",
+    "english": "decide"
+  },
+  {
+    "latin": "dīrus, dīra, dīrum",
+    "english": "dreadful"
+  },
+  {
+    "latin": "eōs",
+    "english": "them"
+  },
+  {
+    "latin": "fēmina, fēminam, f.",
+    "english": "woman"
+  },
+  {
+    "latin": "mōns, montem, m.",
+    "english": "mountain"
+  },
+  {
+    "latin": "mors, mortem, f.",
+    "english": "death"
+  },
+  {
+    "latin": "nec",
+    "english": "and not, nor, neither"
+  },
+  {
+    "latin": "nec … nec …",
+    "english": "neither … nor …"
+  },
+  {
+    "latin": "necō, necāre, necāvī",
+    "english": "kill"
+  },
+  {
+    "latin": "nesciō, nescīre, nescīvī",
+    "english": "don’t know"
+  },
+  {
+    "latin": "numquam",
+    "english": "never"
+  },
+  {
+    "latin": "ostendō, ostendere, ostendī",
+    "english": "show"
+  },
+  {
+    "latin": "tempus, tempus, n.",
+    "english": "time"
+  },
+  {
+    "latin": "terreō, terrēre, terruī",
+    "english": "frighten"
+  },
+  {
+    "latin": "verbum, verbum, n.",
+    "english": "word"
+  },
+  {
+    "latin": "anteā",
+    "english": "before"
+  },
+  {
+    "latin": "bellum, bellum, n.",
+    "english": "war"
+  },
+  {
+    "latin": "cēna, cēnam, f.",
+    "english": "dinner, meal"
+  },
+  {
+    "latin": "cēterī, cēterae, cētera",
+    "english": "the rest, the others"
+  },
+  {
+    "latin": "cognōscō, cognōscere, cognōvī",
+    "english": "get to know, find out, learn"
+  },
+  {
+    "latin": "comes, comitem, m.f.",
+    "english": "comrade, companion"
+  },
+  {
+    "latin": "eō, īre, iī",
+    "english": "go"
+  },
+  {
+    "latin": "etiam",
+    "english": "even, also"
+  },
+  {
+    "latin": "ferōx, ferōcis",
+    "english": "fierce, ferocious"
+  },
+  {
+    "latin": "hortus, hortum, m.",
+    "english": "garden"
+  },
+  {
+    "latin": "intereā",
+    "english": "meanwhile"
+  },
+  {
+    "latin": "iubeō, iubēre, iussī",
+    "english": "order"
+  },
+  {
+    "latin": "lībertus, lībertum, m.",
+    "english": "freedman, former slave"
+  },
+  {
+    "latin": "multum",
+    "english": "much"
+  },
+  {
+    "latin": "nōnne?",
+    "english": "surely?"
+  },
+  {
+    "latin": "nūntiō, nūntiāre, nūntiāvī",
+    "english": "announce, report"
+  },
+  {
+    "latin": "putō, putāre, putāvī",
+    "english": "think"
+  },
+  {
+    "latin": "sē",
+    "english": "himself, herself, itself, themselves"
+  },
+  {
+    "latin": "simulatque",
+    "english": "as soon as"
+  },
+  {
+    "latin": "vīlla, vīllam, f.",
+    "english": "country house, house"
+  },
+  {
+    "latin": "ac",
+    "english": "and"
+  },
+  {
+    "latin": "auferō, auferre, abstulī",
+    "english": "steal, carry off"
+  },
+  {
+    "latin": "brevis, brevis, breve",
+    "english": "short, brief"
+  },
+  {
+    "latin": "cēlō, cēlāre, cēlāvī",
+    "english": "hide"
+  },
+  {
+    "latin": "hic",
+    "english": "this, he, she, it"
+  },
+  {
+    "latin": "ille",
+    "english": "that, he, she, it"
+  },
+  {
+    "latin": "imperium, imperium, n.",
+    "english": "empire; power"
+  },
+  {
+    "latin": "legō, legere, lēgī",
+    "english": "read; choose"
+  },
+  {
+    "latin": "lūx, lūcem, f.",
+    "english": "light, daylight"
+  },
+  {
+    "latin": "ōrō, ōrāre, ōrāvī",
+    "english": "beg, beg for"
+  },
+  {
+    "latin": "prīnceps, prīncipem, m.",
+    "english": "chief; emperor"
+  },
+  {
+    "latin": "quō?",
+    "english": "where to?"
+  },
+  {
+    "latin": "rapiō, rapere, rapuī",
+    "english": "seize, grab"
+  },
+  {
+    "latin": "rēgīna, rēgīnam, f.",
+    "english": "queen"
+  },
+  {
+    "latin": "resistō, resistere, restitī + dat.",
+    "english": "resist"
+  },
+  {
+    "latin": "reveniō, revenīre, revēnī",
+    "english": "come back, return"
+  },
+  {
+    "latin": "sciō, scīre, scīvī",
+    "english": "know"
+  },
+  {
+    "latin": "sentiō, sentīre, sēnsī",
+    "english": "feel, notice"
+  },
+  {
+    "latin": "sī",
+    "english": "if"
+  },
+  {
+    "latin": "sine + abl.",
+    "english": "without"
+  },
+  {
+    "latin": "appāreō, appārēre, appāruī",
+    "english": "appear"
+  },
+  {
+    "latin": "benignus, benigna, benignum",
+    "english": "kind, generous"
+  },
+  {
+    "latin": "dūrus, dūra, dūrum",
+    "english": "hard, harsh"
+  },
+  {
+    "latin": "emō, emere, ēmī, ēmptus",
+    "english": "buy"
+  },
+  {
+    "latin": "et",
+    "english": "even, also; and"
+  },
+  {
+    "latin": "hūc",
+    "english": "here, to this place"
+  },
+  {
+    "latin": "igitur",
+    "english": "therefore, and so"
+  },
+  {
+    "latin": "is",
+    "english": "this, that; he, she, it, them"
+  },
+  {
+    "latin": "lentus, lenta, lentum",
+    "english": "slow"
+  },
+  {
+    "latin": "libenter",
+    "english": "willingly, gladly"
+  },
+  {
+    "latin": "līberō, līberāre, līberāvī, līberātus",
+    "english": "free, set free"
+  },
+  {
+    "latin": "oppugnō, oppugnāre, oppugnāvī, oppugnātus",
+    "english": "attack"
+  },
+  {
+    "latin": "paene",
+    "english": "almost, nearly"
+  },
+  {
+    "latin": "plēnus, plēna, plēnum",
+    "english": "full"
+  },
+  {
+    "latin": "praebeō, praebēre, praebuī, praebitus",
+    "english": "provide"
+  },
+  {
+    "latin": "prō + abl.",
+    "english": "for, in return for; in front of"
+  },
+  {
+    "latin": "quam + superlative",
+    "english": "as … as possible"
+  },
+  {
+    "latin": "relinquō, relinquere, relīquī, relictus",
+    "english": "leave, leave behind"
+  },
+  {
+    "latin": "sōl, sōlem, m.",
+    "english": "sun"
+  },
+  {
+    "latin": "unda, undam, f.",
+    "english": "wave"
+  },
+  {
+    "latin": "abeō, abīre, abiī",
+    "english": "go away, depart"
+  },
+  {
+    "latin": "animus, animum, m.",
+    "english": "spirit, soul, mind"
+  },
+  {
+    "latin": "aut … aut …",
+    "english": "either … or …"
+  },
+  {
+    "latin": "crēdō, crēdere, crēdidī, crēditus + dat.",
+    "english": "believe, trust, have faith in"
+  },
+  {
+    "latin": "eques, equitem, m.",
+    "english": "horseman; pl. = cavalry"
+  },
+  {
+    "latin": "exeō, exīre, exiī",
+    "english": "come out of"
+  },
+  {
+    "latin": "fēlīx, fēlīcis",
+    "english": "lucky, fortunate; happy"
+  },
+  {
+    "latin": "heri",
+    "english": "yesterday"
+  },
+  {
+    "latin": "legiō, legiōnem, f.",
+    "english": "legion"
+  },
+  {
+    "latin": "licet, licēre, licuit",
+    "english": "it is allowed, one may"
+  },
+  {
+    "latin": "malus, mala, malum",
+    "english": "bad, evil"
+  },
+  {
+    "latin": "nam",
+    "english": "for"
+  },
+  {
+    "latin": "necesse",
+    "english": "necessary"
+  },
+  {
+    "latin": "perveniō, pervenīre, pervēnī",
+    "english": "arrive, reach"
+  },
+  {
+    "latin": "placeō, placēre, placuī + dat.",
+    "english": "please"
+  },
+  {
+    "latin": "prōmittō, prōmittere, prōmīsī, prōmissus",
+    "english": "promise"
+  },
+  {
+    "latin": "quam",
+    "english": "than; how …? how …!"
+  },
+  {
+    "latin": "scrībō, scrībere, scrīpsī, scrīptus",
+    "english": "write"
+  },
+  {
+    "latin": "umbra, umbram, f.",
+    "english": "shadow, shade; ghost"
+  },
+  {
+    "latin": "vetus, veteris",
+    "english": "old"
+  },
+  {
+    "latin": "adferō, adferre, attulī, adlātus",
+    "english": "bring"
+  },
+  {
+    "latin": "gerō, gerere, gessī, gestus",
+    "english": "wage (war); wear (clothes)"
+  },
+  {
+    "latin": "lacrima, lacrimam, f.",
+    "english": "tear"
+  },
+  {
+    "latin": "lentē",
+    "english": "slowly"
+  },
+  {
+    "latin": "maximus, maxima, maximum",
+    "english": "very big, huge; biggest, greatest"
+  },
+  {
+    "latin": "melior, melior, melius",
+    "english": "better"
+  },
+  {
+    "latin": "mortuus, mortua, mortuum",
+    "english": "dead"
+  },
+  {
+    "latin": "multō",
+    "english": "much, by much"
+  },
+  {
+    "latin": "neque",
+    "english": "and not, nor, neither"
+  },
+  {
+    "latin": "neque … neque …",
+    "english": "neither … nor …"
+  },
+  {
+    "latin": "oculus, oculum, m.",
+    "english": "eye"
+  },
+  {
+    "latin": "optimus, optima, optimum",
+    "english": "very good, excellent; best"
+  },
+  {
+    "latin": "pōnō, pōnere, posuī, positus",
+    "english": "put, place, put up"
+  },
+  {
+    "latin": "referō, referre, rettulī, relātus",
+    "english": "bring back, carry back; report, tell"
+  },
+  {
+    "latin": "sīc",
+    "english": "so, in this way"
+  },
+  {
+    "latin": "sīcut",
+    "english": "just as, like"
+  },
+  {
+    "latin": "ut",
+    "english": "as"
+  },
+  {
+    "latin": "vestīmentum, vestīmentum, n.",
+    "english": "item of clothing, garment; pl. = clothes"
+  },
+  {
+    "latin": "vōtum, vōtum, n.",
+    "english": "prayer"
+  },
+  {
+    "latin": "vulnus, vulnus, n.",
+    "english": "wound"
+  },
+  {
+    "latin": "ā, ab + abl.",
+    "english": "by; from, away from"
+  },
+  {
+    "latin": "adeō, adīre, adiī",
+    "english": "go to, approach"
+  },
+  {
+    "latin": "agō, agere, ēgī, āctus",
+    "english": "act; drive, lead; do"
+  },
+  {
+    "latin": "alter, altera, alterum",
+    "english": "the other, another, one of two, the second of two"
+  },
+  {
+    "latin": "āmittō, āmittere, āmīsī, āmissus",
+    "english": "lose"
+  },
+  {
+    "latin": "atque",
+    "english": "and"
+  },
+  {
+    "latin": "audāx, audācis",
+    "english": "bold, daring"
+  },
+  {
+    "latin": "dēbeō, dēbēre, dēbuī, dēbitus",
+    "english": "ought, should, must; owe"
+  },
+  {
+    "latin": "enim",
+    "english": "for, because"
+  },
+  {
+    "latin": "facilis, facilis, facile",
+    "english": "easy"
+  },
+  {
+    "latin": "fuga, fugam, f.",
+    "english": "escape"
+  },
+  {
+    "latin": "graviter",
+    "english": "heavily; seriously"
+  },
+  {
+    "latin": "hīc",
+    "english": "here"
+  },
+  {
+    "latin": "lībertās, lībertātem, f.",
+    "english": "freedom"
+  },
+  {
+    "latin": "persuādeō, persuādēre, persuāsī, persuāsus + dat.",
+    "english": "persuade"
+  },
+  {
+    "latin": "tēlum, tēlum, n.",
+    "english": "missile, weapon, spear"
+  },
+  {
+    "latin": "vix",
+    "english": "scarcely, hardly, with difficulty"
+  },
+  {
+    "latin": "ūnus, ūna, ūnum",
+    "english": "one"
+  },
+  {
+    "latin": "duo, duae, duo",
+    "english": "two"
+  },
+  {
+    "latin": "trēs, trēs, tria",
+    "english": "three"
+  },
+  {
+    "latin": "alius, alia, aliud",
+    "english": "else; other, another"
+  },
+  {
+    "latin": "auris, aurem, f.",
+    "english": "ear"
+  },
+  {
+    "latin": "cōgō, cōgere, coēgī, coāctus",
+    "english": "force, compel"
+  },
+  {
+    "latin": "forte",
+    "english": "by chance"
+  },
+  {
+    "latin": "gaudium, gaudium, n.",
+    "english": "joy, pleasure"
+  },
+  {
+    "latin": "ignis, ignem, m.",
+    "english": "fire"
+  },
+  {
+    "latin": "longē",
+    "english": "far off"
+  },
+  {
+    "latin": "pēs, pedem, m.",
+    "english": "foot"
+  },
+  {
+    "latin": "petō, petere, petīvī, petītus",
+    "english": "make for; attack; seek; beg, ask for"
+  },
+  {
+    "latin": "poena, poenam, f.",
+    "english": "punishment"
+  },
+  {
+    "latin": "poenās dō, dare, dedī, datus",
+    "english": "pay the penalty, am punished"
+  },
+  {
+    "latin": "postrīdiē",
+    "english": "on the following day"
+  },
+  {
+    "latin": "propter + acc.",
+    "english": "on account of, because of"
+  },
+  {
+    "latin": "quot?",
+    "english": "how many?"
+  },
+  {
+    "latin": "Rōmae",
+    "english": "at/in Rome"
+  },
+  {
+    "latin": "tēctum, tēctum, n.",
+    "english": "roof"
+  },
+  {
+    "latin": "tūtus, tūta, tūtum",
+    "english": "safe"
+  },
+  {
+    "latin": "unde",
+    "english": "from where"
+  },
+  {
+    "latin": "ventus, ventum, m.",
+    "english": "wind"
+  },
+  {
+    "latin": "vester, vestra, vestrum",
+    "english": "your (plural), yours"
+  },
+  {
+    "latin": "adiuvō, adiuvāre, adiūvī, adiūtus",
+    "english": "help"
+  },
+  {
+    "latin": "aliquis",
+    "english": "someone, something"
+  },
+  {
+    "latin": "aperiō, aperīre, aperuī, apertus",
+    "english": "open"
+  },
+  {
+    "latin": "canis, canem, m.",
+    "english": "dog"
+  },
+  {
+    "latin": "cōnor, cōnārī, cōnātus sum",
+    "english": "try"
+  },
+  {
+    "latin": "cūra, cūram, f.",
+    "english": "care, worry"
+  },
+  {
+    "latin": "dīves, dīvitis",
+    "english": "rich"
+  },
+  {
+    "latin": "ēgredior, ēgredī, ēgressus sum",
+    "english": "go out, leave"
+  },
+  {
+    "latin": "hortor, hortārī, hortātus sum",
+    "english": "encourage, urge"
+  },
+  {
+    "latin": "ingredior, ingredī, ingressus sum",
+    "english": "go into, enter"
+  },
+  {
+    "latin": "loquor, loquī, locūtus sum",
+    "english": "speak, talk"
+  },
+  {
+    "latin": "mīror, mīrārī, mīrātus sum",
+    "english": "wonder at, admire"
+  },
+  {
+    "latin": "morior, morī, mortuus sum",
+    "english": "die"
+  },
+  {
+    "latin": "patior, patī, passus sum",
+    "english": "suffer, endure"
+  },
+  {
+    "latin": "precor, precārī, precātus sum",
+    "english": "pray, pray to"
+  },
+  {
+    "latin": "proficīscor, proficīscī, profectus sum",
+    "english": "set out"
+  },
+  {
+    "latin": "prōgredior, prōgredī, prōgressus sum",
+    "english": "go forward, advance"
+  },
+  {
+    "latin": "proximus, proxima, proximum",
+    "english": "nearest, next to"
+  },
+  {
+    "latin": "regredior, regredī, regressus sum",
+    "english": "go back, return"
+  },
+  {
+    "latin": "sequor, sequī, secūtus sum",
+    "english": "follow"
+  },
+  {
+    "latin": "apud + acc.",
+    "english": "among, with, at the house of"
+  },
+  {
+    "latin": "aurum, aurum, n.",
+    "english": "gold"
+  },
+  {
+    "latin": "cārus, cāra, cārum",
+    "english": "dear; expensive"
+  },
+  {
+    "latin": "celer, celeris, celere",
+    "english": "quick, fast"
+  },
+  {
+    "latin": "cōnficiō, cōnficere, cōnfēcī, cōnfectus",
+    "english": "wear out, exhaust; finish"
+  },
+  {
+    "latin": "cum + subj.",
+    "english": "when, since"
+  },
+  {
+    "latin": "cūrō, cūrāre, cūrāvī, cūrātus",
+    "english": "look after, care for, supervise"
+  },
+  {
+    "latin": "dum",
+    "english": "while"
+  },
+  {
+    "latin": "maximē",
+    "english": "very much, a lot, very greatly"
+  },
+  {
+    "latin": "minor, minor, minus",
+    "english": "smaller, less; younger"
+  },
+  {
+    "latin": "num?",
+    "english": "surely not?"
+  },
+  {
+    "latin": "parātus, parāta, parātum",
+    "english": "ready"
+  },
+  {
+    "latin": "parēns, parentem, m.f.",
+    "english": "parent"
+  },
+  {
+    "latin": "plūs, plūris",
+    "english": "more"
+  },
+  {
+    "latin": "posteā",
+    "english": "afterwards"
+  },
+  {
+    "latin": "quālis, quālis, quāle",
+    "english": "what sort of?"
+  },
+  {
+    "latin": "quantus, quanta, quantum",
+    "english": "how big? how much?"
+  },
+  {
+    "latin": "signum, signum, n.",
+    "english": "sign, signal; seal"
+  },
+  {
+    "latin": "soror, sorōrem, f.",
+    "english": "sister"
+  },
+  {
+    "latin": "validus, valida, validum",
+    "english": "strong"
+  },
+  {
+    "latin": "addūcō, addūcere, addūxī, adductus",
+    "english": "lead to"
+  },
+  {
+    "latin": "adeō",
+    "english": "so much, so greatly, to such an extent"
+  },
+  {
+    "latin": "conveniō, convenīre, convēnī",
+    "english": "come together, gather, meet"
+  },
+  {
+    "latin": "dēspērō, dēspērāre, dēspērāvī",
+    "english": "despair"
+  },
+  {
+    "latin": "exercitus, exercitum, m.",
+    "english": "army"
+  },
+  {
+    "latin": "ita",
+    "english": "so, in this way"
+  },
+  {
+    "latin": "manus, manum, f.",
+    "english": "hand; group of people"
+  },
+  {
+    "latin": "minimē",
+    "english": "very little, least; no"
+  },
+  {
+    "latin": "mūtō, mūtāre, mūtāvī, mūtātus",
+    "english": "change"
+  },
+  {
+    "latin": "opus, opus, n.",
+    "english": "work"
+  },
+  {
+    "latin": "reddō, reddere, reddidī, redditus",
+    "english": "give back, restore"
+  },
+  {
+    "latin": "saxum, saxum, n.",
+    "english": "rock"
+  },
+  {
+    "latin": "spērō, spērāre, spērāvī, spērātus",
+    "english": "hope, expect"
+  },
+  {
+    "latin": "tālis, tālis, tāle",
+    "english": "such, of such a kind"
+  },
+  {
+    "latin": "tam",
+    "english": "so"
+  },
+  {
+    "latin": "tantus, tanta, tantum",
+    "english": "so great, such a great, so much"
+  },
+  {
+    "latin": "tot",
+    "english": "so many"
+  },
+  {
+    "latin": "ut",
+    "english": "(+ subj.) that, so that, in order that; (+ indic.) as"
+  },
+  {
+    "latin": "vērus, vēra, vērum",
+    "english": "true, real"
+  },
+  {
+    "latin": "vultus, vultum, m.",
+    "english": "expression, face"
+  },
+  {
+    "latin": "ante + acc.",
+    "english": "before, in front of"
+  },
+  {
+    "latin": "domī",
+    "english": "at home"
+  },
+  {
+    "latin": "faciēs, faciēī, f.",
+    "english": "face, appearance"
+  },
+  {
+    "latin": "frangō, frangere, frēgī, frāctus",
+    "english": "break"
+  },
+  {
+    "latin": "imperium, imperium, n.",
+    "english": "command; empire; power"
+  },
+  {
+    "latin": "imperō, imperāre, imperāvī, imperātus + dat.",
+    "english": "order, command"
+  },
+  {
+    "latin": "lēgātus, lēgātum, m.",
+    "english": "commander, governor"
+  },
+  {
+    "latin": "maior, maior, maius",
+    "english": "bigger, larger, greater"
+  },
+  {
+    "latin": "mīlle, pl. mīlia",
+    "english": "thousand"
+  },
+  {
+    "latin": "minimus, minima, minimum",
+    "english": "very small, tiny"
+  },
+  {
+    "latin": "nē + subj.",
+    "english": "that … not, so that … not"
+  },
+  {
+    "latin": "num",
+    "english": "whether; surely not?"
+  },
+  {
+    "latin": "pāreō, pārēre, pāruī + dat.",
+    "english": "obey"
+  },
+  {
+    "latin": "postulō, postulāre, postulāvī, postulātus",
+    "english": "demand"
+  },
+  {
+    "latin": "rēs, rem, f.",
+    "english": "business, matter, event; thing; story"
+  },
+  {
+    "latin": "scelestus, scelesta, scelestum",
+    "english": "wicked"
+  },
+  {
+    "latin": "spēs, speī, f.",
+    "english": "hope"
+  },
+  {
+    "latin": "trādō, trādere, trādidī, trāditus",
+    "english": "hand down; hand over"
+  },
+  {
+    "latin": "umquam",
+    "english": "ever"
+  },
+  {
+    "latin": "victōria, victōriam, f.",
+    "english": "victory"
+  },
+  {
+    "latin": "canō, canere, cecinī",
+    "english": "sing; play (an instrument)"
+  },
+  {
+    "latin": "carmen, carmen, n.",
+    "english": "poem, song"
+  },
+  {
+    "latin": "circum + acc.",
+    "english": "around"
+  },
+  {
+    "latin": "fātum, fātum, n.",
+    "english": "fate, destiny; death"
+  },
+  {
+    "latin": "īra, īram, f.",
+    "english": "anger"
+  },
+  {
+    "latin": "lātus, lāta, lātum",
+    "english": "wide, broad"
+  },
+  {
+    "latin": "magnopere",
+    "english": "greatly, very much"
+  },
+  {
+    "latin": "modus, modum, m.",
+    "english": "manner, way, kind, style"
+  },
+  {
+    "latin": "peior, peior, peius",
+    "english": "worse"
+  },
+  {
+    "latin": "pessimus, pessima, pessimum",
+    "english": "very bad, worst"
+  },
+  {
+    "latin": "simulac",
+    "english": "as soon as"
+  },
+  {
+    "latin": "vīvus, vīva, vīvum",
+    "english": "alive, living"
+  },
+  {
+    "latin": "quattuor",
+    "english": "four"
+  },
+  {
+    "latin": "quīnque",
+    "english": "five"
+  },
+  {
+    "latin": "sex",
+    "english": "six"
+  },
+  {
+    "latin": "septem",
+    "english": "seven"
+  },
+  {
+    "latin": "octo",
+    "english": "eight"
+  },
+  {
+    "latin": "novem",
+    "english": "nine"
+  },
+  {
+    "latin": "decem",
+    "english": "ten"
+  },
+  {
+    "latin": "centum",
+    "english": "a hundred"
+  },
+  {
+    "latin": "arbor, arborem, f.",
+    "english": "tree"
+  },
+  {
+    "latin": "ars, artem, f.",
+    "english": "art, skill"
+  },
+  {
+    "latin": "compōnō, compōnere, composuī, compositus",
+    "english": "arrange"
+  },
+  {
+    "latin": "dexter, dextra, dextrum",
+    "english": "right"
+  },
+  {
+    "latin": "doceō, docēre, docuī, doctus",
+    "english": "teach"
+  },
+  {
+    "latin": "dolor, dolōrem, m.",
+    "english": "pain"
+  },
+  {
+    "latin": "dum",
+    "english": "(+ subj.) until; (+ indic.) while"
+  },
+  {
+    "latin": "gaudeō, gaudēre, gāvīsus sum",
+    "english": "am pleased, rejoice"
+  },
+  {
+    "latin": "impōnō, impōnere, imposuī, impositus",
+    "english": "put, put on"
+  },
+  {
+    "latin": "ipse",
+    "english": "himself, herself, itself, themselves"
+  },
+  {
+    "latin": "liber, librum, m.",
+    "english": "book"
+  },
+  {
+    "latin": "metus, metum, m.",
+    "english": "fear"
+  },
+  {
+    "latin": "modo",
+    "english": "only"
+  },
+  {
+    "latin": "moneō, monēre, monuī, monitus",
+    "english": "warn, advise"
+  },
+  {
+    "latin": "pectus, pectus, n.",
+    "english": "chest, breast"
+  },
+  {
+    "latin": "prīmō",
+    "english": "at first"
+  },
+  {
+    "latin": "soleō, solēre, solitus sum",
+    "english": "am accustomed, used"
+  },
+  {
+    "latin": "tempestās, tempestātem, f.",
+    "english": "storm"
+  },
+  {
+    "latin": "vīs, vim, f.",
+    "english": "force"
+  },
+  {
+    "latin": "vulnerō, vulnerāre, vulnerāvī, vulnerātus",
+    "english": "wound, injure"
+  },
+  {
+    "latin": "adhūc",
+    "english": "still, until now"
+  },
+  {
+    "latin": "ager, agrum, m.",
+    "english": "field"
+  },
+  {
+    "latin": "ascendō, ascendere, ascendī",
+    "english": "climb"
+  },
+  {
+    "latin": "autem",
+    "english": "but, however"
+  },
+  {
+    "latin": "beātus, beāta, beātum",
+    "english": "happy, blessed"
+  },
+  {
+    "latin": "cōpiae, cōpiārum, f. pl.",
+    "english": "forces, troops"
+  },
+  {
+    "latin": "dēscendō, dēscendere, dēscendī",
+    "english": "go down, come down"
+  },
+  {
+    "latin": "dulcis, dulcis, dulce",
+    "english": "sweet"
+  },
+  {
+    "latin": "ergō",
+    "english": "therefore"
+  },
+  {
+    "latin": "errō, errāre, errāvī",
+    "english": "make a mistake; wander"
+  },
+  {
+    "latin": "incipiō, incipere, incēpī, inceptus",
+    "english": "begin, start"
+  },
+  {
+    "latin": "nōnnūllī, nōnnūllae, nōnnūlla",
+    "english": "some, several"
+  },
+  {
+    "latin": "quīdam",
+    "english": "one, a certain; pl. = some"
+  },
+  {
+    "latin": "sapiēns, sapientis",
+    "english": "wise"
+  },
+  {
+    "latin": "scelus, scelus, n.",
+    "english": "crime"
+  },
+  {
+    "latin": "super + acc.",
+    "english": "over"
+  },
+  {
+    "latin": "temptō, temptāre, temptāvī, temptātus",
+    "english": "try"
+  },
+  {
+    "latin": "terra, terram, f.",
+    "english": "country; land, ground"
+  },
+  {
+    "latin": "videor, vidērī, vīsus sum",
+    "english": "seem, appear"
+  },
+  {
+    "latin": "virgō, virginem, f.",
+    "english": "virgin, girl, young woman"
+  },
+  {
+    "latin": "aedificō, aedificāre, aedificāvī, aedificātus",
+    "english": "build"
+  },
+  {
+    "latin": "audeō, audēre, ausus sum",
+    "english": "dare"
+  },
+  {
+    "latin": "clārus, clāra, clārum",
+    "english": "clear; famous, distinguished"
+  },
+  {
+    "latin": "custōdiō, custōdīre, custōdīvī, custōdītus",
+    "english": "guard"
+  },
+  {
+    "latin": "decet, decēre, decuit",
+    "english": "it is right for, it is proper for"
+  },
+  {
+    "latin": "dēfendō, dēfendere, dēfendī, dēfēnsus",
+    "english": "defend"
+  },
+  {
+    "latin": "dubitō, dubitāre, dubitāvī, dubitātus",
+    "english": "hesitate, doubt"
+  },
+  {
+    "latin": "gēns, gentem, f.",
+    "english": "people, race, family, tribe"
+  },
+  {
+    "latin": "honor, honōrem, m.",
+    "english": "honor"
+  },
+  {
+    "latin": "ingenium, ingenium, n.",
+    "english": "nature, character"
+  },
+  {
+    "latin": "interficiō, interficere, interfēcī, interfectus",
+    "english": "kill"
+  },
+  {
+    "latin": "līber, lībera, līberum",
+    "english": "free"
+  },
+  {
+    "latin": "moveō, movēre, mōvī, mōtus",
+    "english": "move"
+  },
+  {
+    "latin": "nisi",
+    "english": "unless, except"
+  },
+  {
+    "latin": "orbis, orbem, m.",
+    "english": "globe, sphere"
+  },
+  {
+    "latin": "poscō, poscere, poposcī",
+    "english": "ask for, demand"
+  },
+  {
+    "latin": "regō, regere, rēxī, rēctus",
+    "english": "rule"
+  },
+  {
+    "latin": "similis, similis, simile",
+    "english": "similar, alike"
+  },
+  {
+    "latin": "somnus, somnum, m.",
+    "english": "sleep"
+  },
+  {
+    "latin": "ut",
+    "english": "(+ indic.) when, as soon as; as; (+ subj.) that, so that, in order that"
+  },
+  {
+    "latin": "addō, addere, addidī, additus",
+    "english": "add"
+  },
+  {
+    "latin": "āra, āram, f.",
+    "english": "altar"
+  },
+  {
+    "latin": "captīvus, captīvum, m.",
+    "english": "captive, prisoner"
+  },
+  {
+    "latin": "coma, comam, f.",
+    "english": "hair"
+  },
+  {
+    "latin": "crās",
+    "english": "tomorrow"
+  },
+  {
+    "latin": "discō, discere, didicī",
+    "english": "learn"
+  },
+  {
+    "latin": "fīō, fierī, factus sum",
+    "english": "become"
+  },
+  {
+    "latin": "iuvō, iuvāre, iūvī, iūtus",
+    "english": "help, assist"
+  },
+  {
+    "latin": "negō, negāre, negāvī, negātus",
+    "english": "deny, say that … not"
+  },
+  {
+    "latin": "nūmen, nūmen, n.",
+    "english": "deity, divine power"
+  },
+  {
+    "latin": "opprimō, opprimere, oppressī, oppressus",
+    "english": "crush, overwhelm"
+  },
+  {
+    "latin": "ōs, ōs, n.",
+    "english": "mouth"
+  },
+  {
+    "latin": "pellō, pellere, pepulī, pulsus",
+    "english": "drive, push"
+  },
+  {
+    "latin": "pūniō, pūnīre, pūnīvī, pūnītus",
+    "english": "punish"
+  },
+  {
+    "latin": "quandō?",
+    "english": "when?"
+  },
+  {
+    "latin": "simul",
+    "english": "at the same time"
+  },
+  {
+    "latin": "solvō, solvere, solvī, solūtus",
+    "english": "undo, let go"
+  },
+  {
+    "latin": "ūtor, ūtī, ūsus sum + abl.",
+    "english": "use, employ"
+  },
+  {
+    "latin": "vertō, vertere, vertī, versus",
+    "english": "turn"
+  },
+  {
+    "latin": "virtūs, virtūtem, f.",
+    "english": "courage, virtue"
+  },
+  {
+    "latin": "arma, armōrum, n. pl.",
+    "english": "arms, weapons"
+  },
+  {
+    "latin": "caedēs, caedem, f.",
+    "english": "killing, slaughter"
+  },
+  {
+    "latin": "castra, castrōrum, n. pl.",
+    "english": "camp"
+  },
+  {
+    "latin": "cāsus, cāsum, m.",
+    "english": "accident, chance"
+  },
+  {
+    "latin": "causa, causam, f.",
+    "english": "reason"
+  },
+  {
+    "latin": "cōnsul, cōnsulem, m.",
+    "english": "consul"
+  },
+  {
+    "latin": "faveō, favere, fāvī, fautus + dat.",
+    "english": "favor, support"
+  },
+  {
+    "latin": "illīc",
+    "english": "there"
+  },
+  {
+    "latin": "impetus, impetum, m.",
+    "english": "charge, assault"
+  },
+  {
+    "latin": "inimīcus, inimīcum, m.",
+    "english": "enemy"
+  },
+  {
+    "latin": "invītō, invītāre, invītāvī, invītātus",
+    "english": "invite"
+  },
+  {
+    "latin": "lītus, lītus, n.",
+    "english": "shore, beach"
+  },
+  {
+    "latin": "magis",
+    "english": "more; rather"
+  },
+  {
+    "latin": "mālō, mālle, māluī",
+    "english": "prefer"
+  },
+  {
+    "latin": "mēns, mentem, f.",
+    "english": "mind"
+  },
+  {
+    "latin": "numerus, numerum, m.",
+    "english": "number"
+  },
+  {
+    "latin": "patria, patriam, f.",
+    "english": "country, homeland"
+  },
+  {
+    "latin": "proelium, proelium, n.",
+    "english": "battle"
+  },
+  {
+    "latin": "rēgnum, rēgnum, n.",
+    "english": "kingdom"
+  },
+  {
+    "latin": "victor, victōrem, m.",
+    "english": "winner"
+  },
+  {
+    "latin": "auxilium, auxilium, n.",
+    "english": "help"
+  },
+  {
+    "latin": "claudō, claudere, clausī, clausus",
+    "english": "close"
+  },
+  {
+    "latin": "colō, colere, coluī, cultus",
+    "english": "worship"
+  },
+  {
+    "latin": "dīligēns, dīligentis",
+    "english": "careful"
+  },
+  {
+    "latin": "ecce!",
+    "english": "look! see!"
+  },
+  {
+    "latin": "fīnis, fīnem, m.",
+    "english": "end"
+  },
+  {
+    "latin": "flamma, flammam, f.",
+    "english": "flame; pl. = fire"
+  },
+  {
+    "latin": "fortūna, fortūnam, f.",
+    "english": "fortune"
+  },
+  {
+    "latin": "īdem",
+    "english": "the same"
+  },
+  {
+    "latin": "mōs, mōrem, m.",
+    "english": "way, fashion, custom"
+  },
+  {
+    "latin": "nōndum",
+    "english": "not yet"
+  },
+  {
+    "latin": "populus, populum, m.",
+    "english": "people"
+  },
+  {
+    "latin": "prīmum",
+    "english": "for the first time"
+  },
+  {
+    "latin": "procul",
+    "english": "far off"
+  },
+  {
+    "latin": "pūblicus, pūblica, pūblicum",
+    "english": "public"
+  },
+  {
+    "latin": "Rōmānī, Rōmānōs, m. pl.",
+    "english": "Romans"
+  },
+  {
+    "latin": "satis",
+    "english": "enough"
+  },
+  {
+    "latin": "senātus, senātum, m.",
+    "english": "Senate"
+  },
+  {
+    "latin": "ultimus, ultima, ultimum",
+    "english": "final; furthest"
+  },
+  {
+    "latin": "valē!",
+    "english": "goodbye, farewell"
+  },
+  {
+    "latin": "amīcitia, amīcitiam, f.",
+    "english": "friendship"
+  },
+  {
+    "latin": "avis, avem, f.",
+    "english": "bird"
+  },
+  {
+    "latin": "coniūnx, coniugem, m.f.",
+    "english": "wife, husband, partner"
+  },
+  {
+    "latin": "fāma, fāmam, f.",
+    "english": "rumor, gossip, reputation"
+  },
+  {
+    "latin": "imāgō, imāginem, f.",
+    "english": "image, picture; spirit"
+  },
+  {
+    "latin": "inde",
+    "english": "then, next"
+  },
+  {
+    "latin": "lūna, lūnam, f.",
+    "english": "moon"
+  },
+  {
+    "latin": "mereō, merēre, meruī, meritus",
+    "english": "serve; deserve, earn"
+  },
+  {
+    "latin": "moenia, moenium, n. pl.",
+    "english": "town walls"
+  },
+  {
+    "latin": "mulier, mulierem, f.",
+    "english": "woman"
+  },
+  {
+    "latin": "nascor, nascī, nātus sum",
+    "english": "be born"
+  },
+  {
+    "latin": "nimium",
+    "english": "too (much)"
+  },
+  {
+    "latin": "ōtium, ōtium, n.",
+    "english": "leisure, free time; rest; idleness"
+  },
+  {
+    "latin": "perdō, perdere, perdidī, perditus",
+    "english": "destroy, waste"
+  },
+  {
+    "latin": "premō, premere, pressī, pressus",
+    "english": "press; suppress"
+  },
+  {
+    "latin": "quisquis",
+    "english": "whoever, whatever, anyone who"
+  },
+  {
+    "latin": "salūs, salūtem, f.",
+    "english": "greeting; salvation, safety"
+  },
+  {
+    "latin": "sinō, sinere, sīvī, situs",
+    "english": "allow"
+  },
+  {
+    "latin": "tantum",
+    "english": "so much; only"
+  },
+  {
+    "latin": "vacuus, vacua, vacuum",
+    "english": "empty"
+  },
+  {
+    "latin": "āēr, āerem, m.",
+    "english": "air"
+  },
+  {
+    "latin": "aes, aes, n.",
+    "english": "bronze"
+  },
+  {
+    "latin": "aiō",
+    "english": "say"
+  },
+  {
+    "latin": "amnis, amnem, m.",
+    "english": "stream, river"
+  },
+  {
+    "latin": "at",
+    "english": "but"
+  },
+  {
+    "latin": "campus, campum, m.",
+    "english": "plain, field"
+  },
+  {
+    "latin": "condō, condere, condidī, conditus",
+    "english": "found, establish"
+  },
+  {
+    "latin": "dēnique",
+    "english": "finally"
+  },
+  {
+    "latin": "dignus, digna, dignum + abl.",
+    "english": "worthy, deserving"
+  },
+  {
+    "latin": "ferrum, ferrum, n.",
+    "english": "iron"
+  },
+  {
+    "latin": "fessus, fessa, fessum",
+    "english": "tired"
+  },
+  {
+    "latin": "nātus, nātum, m.",
+    "english": "son"
+  },
+  {
+    "latin": "ops, opem, f.",
+    "english": "strength; help; pl. = wealth, resources"
+  },
+  {
+    "latin": "sīdus, sīdus, n.",
+    "english": "star"
+  },
+  {
+    "latin": "speciēs, speciēī, f.",
+    "english": "appearance"
+  },
+  {
+    "latin": "tangō, tangere, tetigī, tāctus",
+    "english": "touch"
+  },
+  {
+    "latin": "tellūs, tellūrem, f.",
+    "english": "earth; land, country"
+  },
+  {
+    "latin": "tener, tenera, tenerum",
+    "english": "soft, tender"
+  },
+  {
+    "latin": "ūllus, ūlla, ūllum",
+    "english": "any, anyone"
+  },
+  {
+    "latin": "vērō",
+    "english": "indeed, truly"
+  },
+  {
+    "latin": "agmen, agmen, n.",
+    "english": "column (of soldiers)"
+  },
+  {
+    "latin": "aureus, aurea, aureum",
+    "english": "golden, made of gold"
+  },
+  {
+    "latin": "careō, carēre, caruī, caritus + abl.",
+    "english": "be without, lack"
+  },
+  {
+    "latin": "contingō, contingere, contigī, contactus",
+    "english": "happen, touch"
+  },
+  {
+    "latin": "crēscō, crēscere, crēvī, crētus",
+    "english": "grow strong; increase"
+  },
+  {
+    "latin": "dōnō, dōnāre, dōnāvī, dōnātus",
+    "english": "present"
+  },
+  {
+    "latin": "exigō, exigere, exēgī, exāctus",
+    "english": "spend (time)"
+  },
+  {
+    "latin": "familia, familiam, f.",
+    "english": "family, household"
+  },
+  {
+    "latin": "haud",
+    "english": "not"
+  },
+  {
+    "latin": "hospes, hospitem, m.",
+    "english": "guest, stranger; host"
+  },
+  {
+    "latin": "līmen, līmen, n.",
+    "english": "threshold, entrance"
+  },
+  {
+    "latin": "lūmen, lūmen, n.",
+    "english": "light, eye"
+  },
+  {
+    "latin": "pauper, pauperis",
+    "english": "poor"
+  },
+  {
+    "latin": "pudor, pudōrem, m.",
+    "english": "shame, dishonor"
+  },
+  {
+    "latin": "quā",
+    "english": "where"
+  },
+  {
+    "latin": "quidem",
+    "english": "indeed, certainly"
+  },
+  {
+    "latin": "sermō, sermōnem, m.",
+    "english": "conversation, talk"
+  },
+  {
+    "latin": "sōlum",
+    "english": "only"
+  },
+  {
+    "latin": "tegō, tegere, tēxī, tēctus",
+    "english": "cover, hide"
+  },
+  {
+    "latin": "turpis, turpis, turpe",
+    "english": "disgraceful, unseemly"
+  },
+  {
+    "latin": "circā + acc.",
+    "english": "about, near to"
+  },
+  {
+    "latin": "colligō, colligere, collēgī, collēctus",
+    "english": "collect, gather"
+  },
+  {
+    "latin": "cōpia, cōpiam, f.",
+    "english": "abundance"
+  },
+  {
+    "latin": "dēsum, dēesse, dēfuī + dat.",
+    "english": "be wanting, be lacking"
+  },
+  {
+    "latin": "dīvidō, dīvidere, dīvīsī, dīvīsus",
+    "english": "separate"
+  },
+  {
+    "latin": "ēripiō, ēripere, ēripuī, ēreptus",
+    "english": "snatch away"
+  },
+  {
+    "latin": "fallō, fallere, fefellī, falsus",
+    "english": "cheat, deceive"
+  },
+  {
+    "latin": "fidēs, fideī, f.",
+    "english": "trust, faith; promise"
+  },
+  {
+    "latin": "genus, genus, n.",
+    "english": "type"
+  },
+  {
+    "latin": "grātia, grātiam, f.",
+    "english": "esteem; thanks"
+  },
+  {
+    "latin": "iste, ista, istud",
+    "english": "that; he, she, it"
+  },
+  {
+    "latin": "littera, litteram, f.",
+    "english": "letter of the alphabet; pl. = letter"
+  },
+  {
+    "latin": "nōtus, nōta, nōtum",
+    "english": "known, familiar"
+  },
+  {
+    "latin": "prius",
+    "english": "before, previously"
+  },
+  {
+    "latin": "quisque",
+    "english": "each, every"
+  },
+  {
+    "latin": "recipiō, recipere, recēpī, receptus",
+    "english": "bring back; regain"
+  },
+  {
+    "latin": "regiō, regiōnem, f.",
+    "english": "region, area"
+  },
+  {
+    "latin": "reliquus, reliqua, reliquum",
+    "english": "remaining"
+  },
+  {
+    "latin": "sēdēs, sēdem, f.",
+    "english": "seat; home"
+  },
+  {
+    "latin": "undique",
+    "english": "from everywhere; on all sides"
+  },
+  {
+    "latin": "aetās, aetātem, f.",
+    "english": "age"
+  },
+  {
+    "latin": "anima, animam, f.",
+    "english": "soul, spirit"
+  },
+  {
+    "latin": "aspiciō, aspicere, aspexī, aspectus",
+    "english": "look at, consider"
+  },
+  {
+    "latin": "augeō, augēre, auxī, auctus",
+    "english": "increase"
+  },
+  {
+    "latin": "aura, auram, f.",
+    "english": "breeze"
+  },
+  {
+    "latin": "cursus, cursum, m.",
+    "english": "course"
+  },
+  {
+    "latin": "dīvitiae, dīvitiārum, f. pl.",
+    "english": "riches, wealth"
+  },
+  {
+    "latin": "fax, facem, f.",
+    "english": "torch"
+  },
+  {
+    "latin": "gradus, gradum, m.",
+    "english": "step"
+  },
+  {
+    "latin": "iūs, iūs, n.",
+    "english": "right"
+  },
+  {
+    "latin": "laus, laudem, f.",
+    "english": "praise, glory"
+  },
+  {
+    "latin": "mollis, mollis, molle",
+    "english": "soft, tender"
+  },
+  {
+    "latin": "ōrdō, ōrdinem, m.",
+    "english": "row"
+  },
+  {
+    "latin": "prōsum, prōdesse, prōfuī + dat.",
+    "english": "do good"
+  },
+  {
+    "latin": "quisquam",
+    "english": "anyone, anything"
+  },
+  {
+    "latin": "sānctus, sāncta, sānctum",
+    "english": "sacred; virtuous"
+  },
+  {
+    "latin": "seu, sīve",
+    "english": "or; or if"
+  },
+  {
+    "latin": "spatium, spatium, n.",
+    "english": "space"
+  },
+  {
+    "latin": "tamquam",
+    "english": "as if; just as"
+  },
+  {
+    "latin": "vestis, vestem, f.",
+    "english": "item of clothing"
+  },
+  {
+    "latin": "argentum, argentum, n.",
+    "english": "silver"
+  },
+  {
+    "latin": "arx, arcem, f.",
+    "english": "citadel"
+  },
+  {
+    "latin": "certē",
+    "english": "certainly, clearly"
+  },
+  {
+    "latin": "cūnctus, cūncta, cūnctum",
+    "english": "whole, all"
+  },
+  {
+    "latin": "efficiō, efficere, effēcī, effectus",
+    "english": "effect, bring (something) about"
+  },
+  {
+    "latin": "exemplum, exemplum, n.",
+    "english": "example"
+  },
+  {
+    "latin": "famēs, famem, f.",
+    "english": "hunger; famine"
+  },
+  {
+    "latin": "humus, humī, f.",
+    "english": "earth, soil"
+  },
+  {
+    "latin": "magnitūdō, magnitūdinem, f.",
+    "english": "greatness, great amount"
+  },
+  {
+    "latin": "mundus, mundum, m.",
+    "english": "world"
+  },
+  {
+    "latin": "mūnus, mūnus, n.",
+    "english": "gift"
+  },
+  {
+    "latin": "oppidum, oppidum, n.",
+    "english": "town"
+  },
+  {
+    "latin": "optō, optāre, optāvī, optātus",
+    "english": "wish"
+  },
+  {
+    "latin": "peccō, peccāre, peccāvī, peccātus",
+    "english": "sin, make a mistake"
+  },
+  {
+    "latin": "pondus, pondus, n.",
+    "english": "weight"
+  },
+  {
+    "latin": "quārē",
+    "english": "why"
+  },
+  {
+    "latin": "quia",
+    "english": "because"
+  },
+  {
+    "latin": "ratiō, ratiōnem, f.",
+    "english": "reason"
+  },
+  {
+    "latin": "singulus, singula, singulum",
+    "english": "one each; every"
+  },
+  {
+    "latin": "velut",
+    "english": "as if, just like"
+  },
+  {
+    "latin": "adversus + acc.",
+    "english": "opposite, against"
+  },
+  {
+    "latin": "ardeō, ardēre, arsī, arsus",
+    "english": "burn, am on fire"
+  },
+  {
+    "latin": "extrēmus, extrēma, extrēmum",
+    "english": "final, last"
+  },
+  {
+    "latin": "iungō, iungere, iūnxī, iūnctus",
+    "english": "join, link"
+  },
+  {
+    "latin": "latus, latus, n.",
+    "english": "side, flank"
+  },
+  {
+    "latin": "levis, levis, leve",
+    "english": "light; gentle"
+  },
+  {
+    "latin": "nemus, nemus, n.",
+    "english": "wood, grove"
+  },
+  {
+    "latin": "nōscō, nōscere, nōvī, nōtus",
+    "english": "get to know, know"
+  },
+  {
+    "latin": "officium, officium, n.",
+    "english": "duty, office"
+  },
+  {
+    "latin": "pateō, patēre, patuī",
+    "english": "be open, lie open"
+  },
+  {
+    "latin": "pecus, pecus, n.",
+    "english": "herd, flock"
+  },
+  {
+    "latin": "praestō, praestāre, praestitī, praestitus + dat.",
+    "english": "surpass"
+  },
+  {
+    "latin": "quīcumque",
+    "english": "whoever, whatever"
+  },
+  {
+    "latin": "quis",
+    "english": "anybody, anything"
+  },
+  {
+    "latin": "rūrsus",
+    "english": "again"
+  },
+  {
+    "latin": "sēcūrus, sēcūra, sēcūrum",
+    "english": "safe; free from care"
+  },
+  {
+    "latin": "superus, supera, superum",
+    "english": "heavenly; above"
+  },
+  {
+    "latin": "uterque, utraque, utrumque",
+    "english": "each (of two), both"
+  },
+  {
+    "latin": "vel",
+    "english": "or"
+  },
+  {
+    "latin": "vitium, vitium, n.",
+    "english": "imperfection, fault"
+  },
+  {
+    "latin": "appellō, appellāre, appellāvī, appellātus",
+    "english": "call, name"
+  },
+  {
+    "latin": "beneficium, beneficium, n.",
+    "english": "kindness"
+  },
+  {
+    "latin": "cēterum",
+    "english": "moreover"
+  },
+  {
+    "latin": "cīvitās, cīvitātem, f.",
+    "english": "citizenship; state"
+  },
+  {
+    "latin": "eō",
+    "english": "so, therefore"
+  },
+  {
+    "latin": "fluctus, fluctum, m.",
+    "english": "wave"
+  },
+  {
+    "latin": "hinc",
+    "english": "from here"
+  },
+  {
+    "latin": "iniūria, iniūriam, f.",
+    "english": "injury, insult"
+  },
+  {
+    "latin": "membrum, membrum, n.",
+    "english": "limb"
+  },
+  {
+    "latin": "occupō, occupāre, occupāvī, occupātus",
+    "english": "occupy, keep busy"
+  },
+  {
+    "latin": "pār, paris",
+    "english": "equal"
+  },
+  {
+    "latin": "quasi",
+    "english": "as if"
+  },
+  {
+    "latin": "quīn",
+    "english": "indeed; why not; that; that … not; who … not"
+  },
+  {
+    "latin": "rīpa, rīpam, f.",
+    "english": "bank (of a river)"
+  },
+  {
+    "latin": "socius, socium, m.",
+    "english": "ally, partner"
+  },
+  {
+    "latin": "studium, studium, n.",
+    "english": "study"
+  },
+  {
+    "latin": "suscipiō, suscipere, suscēpī, susceptus",
+    "english": "receive"
+  },
+  {
+    "latin": "ūsus, ūsum, m.",
+    "english": "use"
+  },
+  {
+    "latin": "valeō, valēre, valuī",
+    "english": "be well"
+  },
+  {
+    "latin": "voluptās, voluptātem, f.",
+    "english": "pleasure"
+  }
+]
