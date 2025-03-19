@@ -1,15 +1,53 @@
 javascript:(function(){
+    console.clear(); // Clears the console at the start
+
     let dbUrl = "https://raw.githubusercontent.com/Fluffy-Bunny-23/Suburani-Bookmarklets/refs/heads/main/vocabulary.json";
     let running = false;
     let keyLock = false;
-    console.clear ()
+
     console.log("⏳ Fetching vocabulary database...");
 
     fetch(dbUrl)
         .then(response => response.json())
         .then(data => {
             console.log("✅ Vocabulary database loaded successfully!");
-            
+
+            function createIndicator() {
+                let indicator = document.createElement("div");
+                indicator.id = "autoAnswerIndicator";
+                indicator.style.position = "fixed";
+                indicator.style.bottom = "10px";
+                indicator.style.right = "10px";
+                indicator.style.padding = "8px 14px";
+                indicator.style.backgroundColor = "red";
+                indicator.style.color = "#fff";
+                indicator.style.fontSize = "14px";
+                indicator.style.borderRadius = "5px";
+                indicator.style.zIndex = "1000";
+                indicator.style.fontFamily = "Arial, sans-serif";
+                indicator.style.cursor = "pointer";
+                indicator.style.userSelect = "none";
+                indicator.style.transition = "opacity 0.3s, background-color 0.3s";
+                indicator.textContent = "OFF";
+                indicator.onclick = toggleAutoAnswer;
+                document.body.appendChild(indicator);
+            }
+
+            function updateIndicator() {
+                let indicator = document.getElementById("autoAnswerIndicator");
+                if (indicator) {
+                    indicator.textContent = running ? "Auto Answer ON" : "OFF";
+                    indicator.style.backgroundColor = running ? "green" : "red";
+                }
+            }
+
+            function toggleAutoAnswer() {
+                running = !running;
+                console.log(running ? "▶️ Auto-answer STARTED!" : "⏹️ Auto-answer STOPPED!");
+                updateIndicator();
+                if (running) autoAnswer();
+            }
+
             function autoAnswer() {
                 if (!running) return;
 
@@ -73,14 +111,13 @@ javascript:(function(){
             document.addEventListener("keydown", function(event) {
                 if (event.key === "\\" && !keyLock) {
                     keyLock = true;
-                    running = !running;
-                    console.log(running ? "▶️ Auto-answer STARTED!" : "⏹️ Auto-answer STOPPED!");
-                    if (running) autoAnswer();
-                    setTimeout(() => keyLock = false, 300); // Prevents duplicate logs from key repeat
+                    toggleAutoAnswer();
+                    setTimeout(() => keyLock = false, 300);
                 }
             });
 
-            console.log("🔹 Press '\\' to start/stop auto-answer.");
+            createIndicator();
+            console.log("🔹 Press '\\' or click the indicator to start/stop auto-answer.");
         })
         .catch(error => console.error("❌ Error loading database:", error));
 })();
