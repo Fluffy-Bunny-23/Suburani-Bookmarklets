@@ -5,6 +5,7 @@ javascript:(function(){
     let running = false;
     let keyLock = false;
     let lastQuestion = "";
+    let uiVisible = true; // Track UI visibility state
 
     console.log("⏳ Fetching vocabulary database...");
 
@@ -65,6 +66,23 @@ javascript:(function(){
                 if (answerStatus) {
                     answerStatus.style.border = running ? "2px solid green" : "2px solid gray";
                 }
+            }
+            
+            function toggleUIVisibility() {
+                uiVisible = !uiVisible;
+                
+                let indicator = document.getElementById("autoAnswerIndicator");
+                let answerStatus = document.getElementById("answerStatusIndicator");
+                
+                if (indicator) {
+                    indicator.style.display = uiVisible ? "block" : "none";
+                }
+                
+                if (answerStatus) {
+                    answerStatus.style.display = uiVisible ? "block" : "none";
+                }
+                
+                console.log(uiVisible ? "🔍 UI is now visible" : "🔒 UI is now hidden");
             }
             
             function showAnswerStatus(message, color = "#333", autoAnswer = false) {
@@ -130,7 +148,7 @@ javascript:(function(){
                 
                 if (questionEl && questionEl.textContent) {
                     let questionText = questionEl.textContent.trim().replace(/^\d+\s*/, '');
-                    console.log(`Found question from ${questionType}: "${questionText}"`);
+                    // Removed the "Found question from" console.log
                     return questionText;
                 }
                 
@@ -201,6 +219,45 @@ javascript:(function(){
                 return matchingOptions.length > 0 ? matchingOptions.join(", ") : "No matching option found";
             }
 
+            // Trigger click on an element with proper event bubbling
+            function simulateClick(element) {
+                if (!element) return;
+                
+                // Use multiple methods to ensure the click is registered
+                try {
+                    // Method 1: Standard click() method
+                    element.click();
+                    
+                    // Method 2: MouseEvent simulation
+                    const evt = new MouseEvent("click", {
+                        bubbles: true,
+                        cancelable: true,
+                        view: window
+                    });
+                    element.dispatchEvent(evt);
+                } catch (e) {
+                    console.error("Error clicking element:", e);
+                }
+            }
+
+            // Fill input field and trigger events
+            function simulateTyping(element, value) {
+                if (!element) return;
+                
+                try {
+                    // Set the value directly
+                    element.value = value;
+                    
+                    // Trigger multiple events to ensure proper registration
+                    ["input", "change", "keyup", "keydown", "keypress"].forEach(eventType => {
+                        const event = new Event(eventType, { bubbles: true });
+                        element.dispatchEvent(event);
+                    });
+                } catch (e) {
+                    console.error("Error typing into element:", e);
+                }
+            }
+
             function autoAnswer() {
                 if (!running) return;
 
@@ -209,7 +266,7 @@ javascript:(function(){
 
                 if (flashLatEl && nextFlashBtn && getActiveQuestionType() === "flash") {
                     showAnswerStatus("Moving to next question...", "#666", true);
-                    setTimeout(() => nextFlashBtn.click(), 1000);
+                    setTimeout(() => simulateClick(nextFlashBtn), 1000);
                     setTimeout(autoAnswer, 1500);
                     return;
                 }
@@ -231,7 +288,7 @@ javascript:(function(){
                             console.log(`🟢 Clicking: "${optionText}"`);
                             showAnswerStatus(`<b>Question:</b> "${questionInfo.question}"<br><b>Answer:</b> ${questionInfo.answers.join(", ")}<br><b>Selecting:</b> "${optionText}"`, "#27ae60", true);
                             matchFound = true;
-                            setTimeout(() => option.click(), 500);
+                            setTimeout(() => simulateClick(option), 500);
                         }
                     });
                     
@@ -239,7 +296,7 @@ javascript:(function(){
                         showAnswerStatus(`<b>Question:</b> "${questionInfo.question}"<br><b>Answer:</b> ${questionInfo.answers.join(", ")}<br><b>Warning:</b> No matching option found`, "#d35400");
                     }
                     
-                    setTimeout(autoAnswer, 1000);
+                    setTimeout(autoAnswer, 1500);
                     return;
                 }
 
@@ -249,10 +306,16 @@ javascript:(function(){
                     let answer = questionInfo.answers[0];
                     console.log(`⌨️ Typing: "${answer}"`);
                     showAnswerStatus(`<b>Question:</b> "${questionInfo.question}"<br><b>Answer:</b> ${questionInfo.answers.join(", ")}<br><b>Typing:</b> "${answer}"`, "#16a085", true);
-                    inputBox.value = answer;
-                    inputBox.dispatchEvent(new Event("input", { bubbles: true }));
-                    setTimeout(() => checkButton.click(), 500);
-                    setTimeout(autoAnswer, 1000);
+                    
+                    // Improved input method
+                    simulateTyping(inputBox, answer);
+                    
+                    // Give time for the input to register before clicking check
+                    setTimeout(() => {
+                        simulateClick(checkButton);
+                    }, 800);
+                    
+                    setTimeout(autoAnswer, 1500);
                     return;
                 }
 
@@ -291,7 +354,8 @@ javascript:(function(){
             document.addEventListener("keydown", function(event) {
                 if (event.key === "\\" && !keyLock) {
                     keyLock = true;
-                    toggleAutoAnswer();
+                    // Changed behavior: now toggles UI visibility instead of auto-answer
+                    toggleUIVisibility();
                     setTimeout(() => keyLock = false, 300);
                 }
             });
@@ -299,7 +363,7 @@ javascript:(function(){
             createIndicator();
             setupDisplayObserver();
             monitorQuestions(); // Start monitoring questions regardless of auto-answer status
-            console.log("🔹 Press '\\' or click the indicator to start/stop auto-answer.");
+            console.log("🔹 Press '\\' to show/hide UI. Click the indicator to start/stop auto-answer.");
         })
         .catch(error => console.error("❌ Error loading database:", error));
 })();
