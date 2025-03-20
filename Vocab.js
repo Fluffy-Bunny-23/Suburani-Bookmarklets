@@ -4,6 +4,7 @@ javascript:(function(){
     let dbUrl = "https://raw.githubusercontent.com/Fluffy-Bunny-23/Suburani-Bookmarklets/refs/heads/main/vocabulary.json";
     let running = false;
     let keyLock = false;
+    let lastQuestion = "";
 
     console.log("⏳ Fetching vocabulary database...");
 
@@ -91,23 +92,113 @@ javascript:(function(){
                 if (running) autoAnswer();
             }
 
-            function checkCurrentQuestion() {
-                let questionEl = document.querySelector("#q1, #qtyp");
-                if (questionEl) {
-                    let latinQuestion = questionEl.textContent.trim().replace(/^\d+\s*/, '');
-                    let primaryLatinWord = latinQuestion.split(",")[0].trim();
-                    
-                    let entry = data.find(item => item.latin.split(",")[0].trim() === primaryLatinWord);
-                    if (entry) {
-                        let correctAnswers = entry.english.toLowerCase().split(",").map(s => s.trim());
-                        showAnswerStatus(`<b>Question:</b> "${latinQuestion}"<br><b>Answer:</b> ${correctAnswers.join(", ")}`, "#1a5276");
-                        
-                        return { question: latinQuestion, answers: correctAnswers, entry: entry };
-                    } else {
-                        showAnswerStatus(`<b>Question:</b> "${latinQuestion}"<br><b>No answer found in database</b>`, "#d35400");
-                    }
+            function getActiveQuestionType() {
+                // Check which question container is currently displayed
+                const flashpagEl = document.getElementById("flashpag");
+                const multiEl = document.getElementById("multi");
+                const typeinEl = document.getElementById("typein");
+                
+                if (flashpagEl && flashpagEl.style.display !== "none") {
+                    return "flash";
+                } else if (multiEl && multiEl.style.display !== "none") {
+                    return "multi";
+                } else if (typeinEl && typeinEl.style.display !== "none") {
+                    return "typein";
+                } else {
+                    return null;
                 }
+            }
+
+            function getCurrentQuestion() {
+                const questionType = getActiveQuestionType();
+                let questionEl;
+                
+                // Get the question element based on the active question type
+                switch (questionType) {
+                    case "flash":
+                        questionEl = document.querySelector("#flashlat");
+                        break;
+                    case "multi":
+                        questionEl = document.querySelector("#q1");
+                        break;
+                    case "typein":
+                        questionEl = document.querySelector("#qtyp");
+                        break;
+                    default:
+                        return null;
+                }
+                
+                if (questionEl && questionEl.textContent) {
+                    let questionText = questionEl.textContent.trim().replace(/^\d+\s*/, '');
+                    console.log(`Found question from ${questionType}: "${questionText}"`);
+                    return questionText;
+                }
+                
                 return null;
+            }
+
+            function checkCurrentQuestion() {
+                let latinQuestion = getCurrentQuestion();
+                
+                // Return if no question found or if it's the same as last time
+                if (!latinQuestion) {
+                    showAnswerStatus("Waiting for question...", "#666");
+                    return null;
+                }
+                
+                // If we've already processed this question and nothing has changed, don't update
+                if (latinQuestion === lastQuestion) {
+                    return null;
+                }
+                
+                // Update the last question we've seen
+                lastQuestion = latinQuestion;
+                
+                // Normalize the question to find the primary Latin word
+                let primaryLatinWord = latinQuestion.split(",")[0].trim();
+                
+                let entry = data.find(item => {
+                    // Normalize both strings for comparison by removing accents
+                    let normalizedItem = item.latin.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                    let normalizedQuery = primaryLatinWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                    
+                    return normalizedItem.split(",")[0].trim() === normalizedQuery;
+                });
+                
+                if (entry) {
+                    let correctAnswers = entry.english.toLowerCase().split(",").map(s => s.trim());
+                    
+                    // Always show answer for both question types
+                    if (document.querySelector(".multib")) {
+                        // For multiple choice
+                        showAnswerStatus(`<b>Question:</b> "${latinQuestion}"<br><b>Answer:</b> ${correctAnswers.join(", ")}<br><b>Look for:</b> ${highlightMatchingOptions(correctAnswers)}`, "#1a5276");
+                    } else if (document.querySelector("#typeans")) {
+                        // For typing questions
+                        showAnswerStatus(`<b>Question:</b> "${latinQuestion}"<br><b>Answer:</b> ${correctAnswers.join(", ")}`, "#1a5276");
+                    } else {
+                        showAnswerStatus(`<b>Question:</b> "${latinQuestion}"<br><b>Answer:</b> ${correctAnswers.join(", ")}`, "#1a5276");
+                    }
+                    
+                    return { question: latinQuestion, answers: correctAnswers, entry: entry };
+                } else {
+                    showAnswerStatus(`<b>Question:</b> "${latinQuestion}"<br><b>No answer found in database</b>`, "#d35400");
+                }
+                
+                return null;
+            }
+            
+            function highlightMatchingOptions(correctAnswers) {
+                let options = document.querySelectorAll(".multib");
+                let matchingOptions = [];
+                
+                options.forEach(option => {
+                    let optionText = option.textContent.trim().toLowerCase().replace(/^\d+\s*/, '');
+                    if (correctAnswers.includes(optionText)) {
+                        matchingOptions.push(`<span style="color:#2ecc71;font-weight:bold;">${optionText}</span>`);
+                    }
+                });
+                
+                return matchingOptions.length > 0 ? matchingOptions.join(", ") : "No matching option found";
             }
 
             function autoAnswer() {
@@ -116,7 +207,7 @@ javascript:(function(){
                 let flashLatEl = document.querySelector("#flashlat");
                 let nextFlashBtn = document.querySelector("#nextq1");
 
-                if (flashLatEl && nextFlashBtn) {
+                if (flashLatEl && nextFlashBtn && getActiveQuestionType() === "flash") {
                     showAnswerStatus("Moving to next question...", "#666", true);
                     setTimeout(() => nextFlashBtn.click(), 1000);
                     setTimeout(autoAnswer, 1500);
@@ -124,14 +215,15 @@ javascript:(function(){
                 }
 
                 let questionInfo = checkCurrentQuestion();
+                
+                // If we didn't get question info, try again later
                 if (!questionInfo) {
-                    showAnswerStatus("Waiting for question...", "#666");
                     setTimeout(autoAnswer, 500);
                     return;
                 }
 
                 let options = document.querySelectorAll(".multib");
-                if (options.length > 0) {
+                if (options.length > 0 && getActiveQuestionType() === "multi") {
                     let matchFound = false;
                     options.forEach(option => {
                         let optionText = option.textContent.trim().toLowerCase().replace(/^\d+\s*/, '');
@@ -153,7 +245,7 @@ javascript:(function(){
 
                 let inputBox = document.querySelector("#typeans");
                 let checkButton = document.querySelector("#checkbtn");
-                if (inputBox && checkButton) {
+                if (inputBox && checkButton && getActiveQuestionType() === "typein") {
                     let answer = questionInfo.answers[0];
                     console.log(`⌨️ Typing: "${answer}"`);
                     showAnswerStatus(`<b>Question:</b> "${questionInfo.question}"<br><b>Answer:</b> ${questionInfo.answers.join(", ")}<br><b>Typing:</b> "${answer}"`, "#16a085", true);
@@ -167,10 +259,33 @@ javascript:(function(){
                 setTimeout(autoAnswer, 1000);
             }
 
+            // Set up MutationObserver to detect when question containers change visibility
+            function setupDisplayObserver() {
+                const containers = ["flashpag", "multi", "typein"];
+                containers.forEach(id => {
+                    const element = document.getElementById(id);
+                    if (element) {
+                        const observer = new MutationObserver(mutations => {
+                            mutations.forEach(mutation => {
+                                if (mutation.attributeName === 'style' && 
+                                    mutation.target.style.display !== 'none') {
+                                    // If this container becomes visible, reset lastQuestion
+                                    console.log(`Container ${id} is now visible`);
+                                    lastQuestion = "";
+                                    checkCurrentQuestion();
+                                }
+                            });
+                        });
+                        
+                        observer.observe(element, { attributes: true });
+                    }
+                });
+            }
+
             // Set up continuous question monitoring
             function monitorQuestions() {
                 checkCurrentQuestion();
-                setTimeout(monitorQuestions, 1000);
+                setTimeout(monitorQuestions, 500);
             }
 
             document.addEventListener("keydown", function(event) {
@@ -182,6 +297,7 @@ javascript:(function(){
             });
 
             createIndicator();
+            setupDisplayObserver();
             monitorQuestions(); // Start monitoring questions regardless of auto-answer status
             console.log("🔹 Press '\\' or click the indicator to start/stop auto-answer.");
         })
