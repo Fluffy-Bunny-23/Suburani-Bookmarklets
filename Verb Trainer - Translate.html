@@ -1,1 +1,307 @@
-<div id="innr"> <div id="setuppag" style="display: none;"> <div id="pic"><img id="pic" src="../images/fish.jpg" alt="mosaic"></div> <div id="setuptabs"><button class="opt" id="setupchapbtn">&nbsp;Set up by chapter&nbsp;</button><button class="opt" id="setupmanbtn" disabled="">&nbsp;Set up manually&nbsp;</button></div> <div id="setupchap" style="display: none;"> <span class="setuptd"><label for="chapsel">Chapter?</label></span> <span class="setuptv"><select id="chapsel"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option></select></span> </div> <div id="setupman" style="display: inline-block;"> <div class="ttl">CHOOSE ONE OR MORE VERBS</div> <div id="chkregbox"> Regular verbs <div id="actives"><label for="chkactvb">actives?</label> <input type="checkbox" id="chkactvb"></div> <div id="passives"><label for="chkpassvb">passives?</label> <input type="checkbox" id="chkpassvb"></div> </div> <div id="regvbs" style="display: block;"> <input type="checkbox" class="chkbtn" name="chkg" id="chkg1" value="0"><label for="chkg1">VOCO<br>call</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg2" value="1"><label for="chkg2">TENEO<br>hold</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg3" value="2"><label for="chkg3">MITTO<br>send</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg4" value="3"><label for="chkg4">AUDIO<br>hear</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg5" value="4"><label for="chkg5">CAPIO<br>take</label>  </div> <div id="chkdepbox"> <label class="vblab" for="chkdepvb">Deponent verbs</label> <div id="deponents"><input type="checkbox" id="chkdepvb"></div> </div> <div id="depvbs" style="display: none;"> <input type="checkbox" class="chkbtn" name="chkg" id="chkg6" value="5"><label for="chkg6">CONOR<br>try</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg7" value="6"><label for="chkg7">VEREOR<br>fear</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg8" value="7"><label for="chkg8">LOQUOR<br>speak</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg9" value="8"><label for="chkg9">ORIOR<br>rise</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg10" value="9"><label for="chkg10">PATIOR<br>suffer</label> </div>  <div id="chkirrbox"> Irregular verbs <div id="irractives"><label for="chkirractvb" id="labirractvb">actives?</label> <input type="checkbox" id="chkirractvb"></div> <div id="irrpassives"><label for="chkirrpassvb">passive of ferō?</label> <input type="checkbox" id="chkirrpassvb"></div> </div> <div id="irrvbs" style="display: none;"> <input type="checkbox" class="chkbtn" name="chkg" id="chkg11" value="10"><label for="chkg11">SUM<br>am</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg12" value="11"><label for="chkg12">POSSUM<br>am able</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg13" value="12"><label for="chkg13">EO<br>go</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg14" value="13"><label for="chkg14">FERO<br>carry</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg15" value="14"><label for="chkg15" id="labchkg15">FIO<br>become</label><br> <input type="checkbox" class="chkbtn" name="chkg" id="chkg16" value="15"><label for="chkg16">VOLO<br>want</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg17" value="16"><label for="chkg17">NOLO<br>don’t want</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg18" value="17"><label for="chkg18" id="labchkg18">MALO<br>prefer</label> </div>  <div id="setvbtense"> <div class="ttl">CHOOSE ONE OR MORE TENSES</div> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt1" value="p"><label for="chkt1">PRESENT</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt2" value="f"><label for="chkt2">FUTURE</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt3" value="i"><label for="chkt3">IMPERFECT</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt4" value="x"><label for="chkt4">PERFECT</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt5" value="z"><label for="chkt5">PLUPERFECT</label> </div> <div id="setvbmood"> <div class="ttl">CHOOSE ONE OR MORE MOODS</div> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm1" value="i"><label for="chkm1">INDICATIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm2" value="s"><label for="chkm2">SUBJUNCTIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm3" value="d"><label for="chkm3">IMPERATIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm4" value="n"><label for="chkm4">INFINITIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm5" value="p"><label for="chkm5">PARTICIPLE</label> </div> <div class="ttl" id="shareprompt">SHARE SETTINGS FOR</div> <div id="sharebox"> <button class="opt" id="share000">Translate</button><button class="opt" id="share001">Analyse</button><button class="opt" id="share010">Compose</button><button class="opt" id="share011">Persons</button><button class="opt" id="share100">Tenses</button>  </div> <div id="prompt"></div> </div> </div> <div id="reviewpag" style="display: none;"> <div class="info">Explore the verb by pressing the white buttons.</div> <div id="btmbox"> <div id="btm"> <input type="radio" name="revt" id="revt1" value="p"><label for="revt1">pres</label> <input type="radio" name="revt" id="revt2" value="f" disabled=""><label for="revt2">fut</label> <input type="radio" name="revt" id="revt3" value="i" disabled=""><label for="revt3">impf</label> <input type="radio" name="revt" id="revt4" value="x" disabled=""><label for="revt4">perf</label> <input type="radio" name="revt" id="revt5" value="z" disabled=""><label for="revt5">plupf</label><br> <input type="radio" name="revv" id="revv1" value="a"><label for="revv1">act</label> <input type="radio" name="revv" id="revv2" value="p" disabled=""><label for="revv2">pass</label> <input type="radio" name="revv" id="revv3" value="d" disabled=""><label for="revv3">dep</label><br> <input type="radio" name="revm" id="revm1" value="i"><label for="revm1">indic</label> <input type="radio" name="revm" id="revm2" value="s" disabled=""><label for="revm2">subj</label> <input type="radio" name="revm" id="revm3" value="d" disabled=""><label for="revm3">imper</label> <input type="radio" name="revm" id="revm4" value="n" disabled=""><label for="revm4">infin</label> <input type="radio" name="revm" id="revm5" value="p" disabled=""><label for="revm5">ptcpl</label> <br> <input type="radio" name="revg" id="revg1" value="0"><label for="revg1">vocō</label> <input type="radio" name="revg" id="revg2" value="1" disabled=""><label for="revg2">teneō</label> <input type="radio" name="revg" id="revg3" value="2" disabled=""><label for="revg3">mittō</label> <input type="radio" name="revg" id="revg4" value="3" disabled=""><label for="revg4">audiō</label> <input type="radio" name="revg" id="revg5" value="4" disabled=""><label for="revg5">capiō</label> <input type="radio" name="revg" id="revg6" value="5" disabled=""><label for="revg6">cōnor</label> <input type="radio" name="revg" id="revg7" value="6" disabled=""><label for="revg7">vereor</label> <input type="radio" name="revg" id="revg8" value="7" disabled=""><label for="revg8">loquor</label> <input type="radio" name="revg" id="revg9" value="8" disabled=""><label for="revg9">orior</label> <input type="radio" name="revg" id="revg10" value="9" disabled=""><label for="revg10">patior</label> <input type="radio" name="revg" id="revg11" value="10" disabled=""><label for="revg11">sum</label> <input type="radio" name="revg" id="revg12" value="11" disabled=""><label for="revg12">possum</label> <input type="radio" name="revg" id="revg13" value="12" disabled=""><label for="revg13">eō</label> <input type="radio" name="revg" id="revg14" value="13" disabled=""><label for="revg14">ferō</label> <input type="radio" name="revg" id="revg15" value="14" disabled=""><label for="revg15" id="labrevg15">fīō</label> <input type="radio" name="revg" id="revg16" value="15" disabled=""><label for="revg16">volō</label> <input type="radio" name="revg" id="revg17" value="16" disabled=""><label for="revg17">nolō</label> <input type="radio" name="revg" id="revg18" value="17" disabled=""><label for="revg18" id="labrevg18">mālō</label> </div> </div> <div id="topbox"> <div id="top"></div> </div> </div> <div id="parsepag" style="display: block;"> <div id="parsebox" style="display: none;"> <div class="qtstbox"> <div id="qtst1">vocāmus</div> </div> <div class="info">Where would you find this Latin verb form?<br>Pick tense, voice, mood, and a <span class="qansb">???</span> box.</div> <div id="toptstbox"> <div id="toptst"><table><tbody><tr><th>1st s</th><td class="hint">I</td><td id="mphasv" class="slot mphsel"><span class="here">???</span></td></tr><tr><th>2nd s</th><td class="hint">you (sing.)</td><td id="mphbsv" class="slot"><span class="here">???</span></td></tr><tr><th>3rd s</th><td class="hint">he/she/it</td><td id="mphcsv" class="slot"><span class="here">???</span></td></tr><tr><th>1st p</th><td class="hint">we</td><td id="mphapv" class="slot"><span class="here">???</span></td></tr><tr><th>2nd p</th><td class="hint">you (pl.)</td><td id="mphbpv" class="slot"><span class="here">???</span></td></tr><tr><th>3rd p</th><td class="hint">they</td><td id="mphcpv" class="slot"><span class="here">???</span></td></tr></tbody></table></div> </div> <div id="btmtst"> <input type="radio" name="tstbt" id="tstbt1" value="p"><label for="tstbt1">pres</label> <input type="radio" name="tstbt" id="tstbt2" value="f" disabled=""><label for="tstbt2">fut</label> <input type="radio" name="tstbt" id="tstbt3" value="i" disabled=""><label for="tstbt3">impf</label> <input type="radio" name="tstbt" id="tstbt4" value="x" disabled=""><label for="tstbt4">perf</label> <input type="radio" name="tstbt" id="tstbt5" value="z" disabled=""><label for="tstbt5">plupf</label> <br> <input type="radio" name="tstbv" id="tstbv1" value="a"><label for="tstbv1">act</label> <input type="radio" name="tstbv" id="tstbv2" value="p" disabled=""><label for="tstbv2">pass</label> <input type="radio" name="tstbv" id="tstbv3" value="d" disabled=""><label for="tstbv3">dep</label> <br> <input type="radio" name="tstbm" id="tstbm1" value="i"><label for="tstbm1">indic</label> <input type="radio" name="tstbm" id="tstbm2" value="s" disabled=""><label for="tstbm2">subj</label> <input type="radio" name="tstbm" id="tstbm3" value="d" disabled=""><label for="tstbm3">imper</label> <input type="radio" name="tstbm" id="tstbm4" value="n" disabled=""><label for="tstbm4">infin</label> <input type="radio" name="tstbm" id="tstbm5" value="p" disabled=""><label for="tstbm5">ptcpl</label>  </div> </div> <div id="translatebox" style="display: block;"> <div class="info">Translate into English:</div> <div class="qtstbox"> <div id="qtst2">vocāmus</div> </div> <div id="xlatbox"> <input type="text" id="xlatinp" maxlength="25" autocorrect="off" autocapitalize="none" autocomplete="off" spellcheck="false"><span id="xlatyesno"></span> </div> <div id="tellmemore" style="display: none;"> <p>Use these translations for the verbs:</p> <table class="xlats"> <tbody><tr><td class="la">vocō</td><td class="en">call</td> <td class="la">teneō</td><td class="en">hold</td> <td class="la">mittō</td><td class="en">send</td></tr> <tr><td class="la">audiō</td><td class="en">hear</td> <td class="la">capiō</td><td class="en">take</td> <td class="la">cōnor</td><td class="en">try</td></tr> <tr><td class="la">vereor</td><td class="en">fear</td> <td class="la">loquor</td><td class="en">speak</td> <td class="la">orior</td><td class="en">rise</td></tr> <tr><td class="la">patior</td><td class="en">suffer</td> <td class="la">sum</td><td class="en">am</td> <td class="la">possum</td><td class="en">am able</td></tr> <tr><td class="la">eō</td><td class="en">go</td> <td class="la">ferō</td><td class="en">carry</td> <td class="la">fīō</td><td class="en">become</td></tr> <tr><td class="la">volō</td><td class="en">want</td> <td class="la">nolō</td><td class="en">don’t want</td> <td class="la">mālō</td><td class="en">prefer</td></tr> </tbody></table> <div class="instruc"> <ul> <li>Include ‘I’, ‘you’, etc, if shown in the verb.</li> <li>Use ‘you’ for both singular and plural.</li> <li>Use ‘he’, ‘she’, or ‘it’, not ‘he/she/it’.</li> <li>No case, number, gender for participles.</li> <li>Don’t indicate if a verb is subjunctive.</li> <li>You can use abbreviations, e.g. I’m or he’s.</li> </ul> <div id="tellmoreprompt">Press TELL ME MORE again to hide this.</div> </div> </div> </div> <div id="qpromptbox" style="display: block;"> <div id="qprompt"></div> </div> <div id="btmresbox"> <div id="btmres" style="display: none;"></div> </div> <div id="btnsparse"> <button class="opt" id="tellmorebtn" style="display: inline-block;">Tell me more</button> <button class="opt" id="submitbtn" style="display: inline-block;">Submit</button> <button class="opt" id="nextparsebtn" style="display: none;">Next</button> </div> </div> <div id="typepag" style="display: none;"> <div id="testcbox"> <div> <div id="quest"></div> <div id="typefeedback"></div> <div> <div id="enginpdiv"> <input type="text" id="enginp" maxlength="25" autocorrect="off" autocapitalize="none" autocomplete="off" spellcheck="false"><span id="yesno"></span> </div> </div> </div> <div id="btnstype"> <button class="opt" id="nexttypebtn">Next</button> </div> </div> </div> <div id="personpag" style="display: none;"> <div id="personqword"></div> <table id="persontab">  <tbody><tr> <th class="thcnt"></th><th class="thcnt">SINGULAR</th><th class="thcnt">PLURAL</th> </tr> <tr> <th class="thrgt">1ST</th> <td><button id="prsx1" class="personbtn"><span id="prsz1" class="eng"><span id="prsy1" class="num">1</span>I</span><span id="prsw1" class="tikross"></span></button></td> <td><button id="prsx4" class="personbtn"><span id="prsz4" class="eng"><span id="prsy4" class="num">4</span>we</span><span id="prsw4" class="tikross"></span></button></td> </tr> <tr> <th class="thrgt">2ND</th> <td><button id="prsx2" class="personbtn"><span id="prsz2" class="eng"><span id="prsy2" class="num">2</span>you</span><span id="prsw2" class="tikross"></span></button></td> <td><button id="prsx5" class="personbtn"><span id="prsz5" class="eng"><span id="prsy5" class="num">5</span>you</span><span id="prsw5" class="tikross"></span></button></td> </tr> <tr> <th class="thrgt">3RD</th> <td><button id="prsx3" class="personbtn"><span id="prsz3" class="eng"><span id="prsy3" class="num">3</span>he/she/it</span><span id="prsw3" class="tikross"></span></button></td> <td><button id="prsx6" class="personbtn"><span id="prsz6" class="eng"><span id="prsy6" class="num">6</span>they</span><span id="prsw6" class="tikross"></span></button></td> </tr> </tbody></table> </div> <div id="tensepag" style="display: none;"> <div id="tensebox"> <div id="tenseqword"></div> <div id="tensebtns"> <button id="tnsx1" class="tensebtn"><span id="tnsz1" class="eng"><span id="tnsy1" class="num">1</span>Present</span><span id="tnsw1" class="tikross"></span></button> <button id="tnsx2" class="tensebtn"><span id="tnsz2" class="eng"><span id="tnsy2" class="num">2</span>Future</span><span id="tnsw2" class="tikross"></span></button> <button id="tnsx3" class="tensebtn"><span id="tnsz3" class="eng"><span id="tnsy3" class="num">3</span>Imperfect</span><span id="tnsw3" class="tikross"></span></button> <button id="tnsx4" class="tensebtn"><span id="tnsz4" class="eng"><span id="tnsy4" class="num">4</span>Perfect</span><span id="tnsw4" class="tikross"></span></button> <button id="tnsx5" class="tensebtn"><span id="tnsz5" class="eng"><span id="tnsy5" class="num">5</span>Pluperfect</span><span id="tnsw5" class="tikross"></span></button> </div> </div> </div> <div id="resultspag" style="display: none;"> <div id="resultlist"></div> </div> <div id="progresspag" style="display: none;"> <div id="selectors"> <div id="chapselectbox"> <label for="chapselect">Total scores up to chapter</label> <select id="chapselect"> <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option> <option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option> <option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option> <option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option> <option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option> <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option> <option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option> <option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option> </select> </div> <div id="qtypeselbox"> <input type="radio" name="qtypegrp" id="qtypebtntranslate" value="1" checked=""><label for="qtypebtntranslate">Translate</label> <input type="radio" name="qtypegrp" id="qtypebtnanalyse" value="2"><label for="qtypebtnanalyse">Analyse</label> <input type="radio" name="qtypegrp" id="qtypebtncompose" value="3"><label for="qtypebtncompose">Compose</label> </div> <div id="verbselbox"> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnreg" value="0" checked=""><label for="vbbtnreg">regular</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnsum" value="1"><label for="vbbtnsum">sum/possum</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtneo" value="2"><label for="vbbtneo">eō/ferō/fīō</label><br> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnvolo" value="3"><label for="vbbtnvolo">volō/nōlō/mālō</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnperson" value="4"><label for="vbbtnperson">persons</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtntense" value="5"><label for="vbbtntense">tenses</label> </div> </div> <div id="progressdata"></div> </div> </div>
+<html lang="en"><head><meta charset="utf-8"><title>Verbs</title><link rel="icon" type="image/svg+xml" href="../images/favicon.svg"><meta name="viewport" content="width=device-width, initial-scale=1"><style>.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #0000ff;
+  --rdp-background-color: #e7edff;
+  --rdp-accent-color-dark: #3003e1;
+  --rdp-background-color-dark: #180270;
+  --rdp-outline: 2px solid var(--rdp-accent-color); /* Outline border for focused elements */
+  --rdp-outline-selected: 2px solid rgba(0, 0, 0, 0.75); /* Outline border for focused _and_ selected elements */
+
+  margin: 1em;
+}
+
+/* Hide elements for devices that are not screen readers */
+.rdp-vhidden {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute !important;
+  top: 0;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  border: 0 !important;
+}
+
+/* Buttons */
+.rdp-button_reset {
+  appearance: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  color: inherit;
+  outline: none;
+  background: none;
+  font: inherit;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.rdp-button {
+  border: 2px solid transparent;
+}
+
+.rdp-button[disabled] {
+  opacity: 0.25;
+}
+
+.rdp-button:not([disabled]) {
+  cursor: pointer;
+}
+
+.rdp-button:focus:not([disabled]),
+.rdp-button:active:not([disabled]) {
+  color: inherit;
+  border: var(--rdp-outline);
+  background-color: var(--rdp-background-color);
+}
+
+.rdp-button:hover:not([disabled]) {
+  background-color: var(--rdp-background-color);
+}
+
+.rdp-months {
+  display: flex;
+}
+
+.rdp-month {
+  margin: 0 1em;
+}
+
+.rdp-month:first-child {
+  margin-left: 0;
+}
+
+.rdp-month:last-child {
+  margin-right: 0;
+}
+
+.rdp-table {
+  margin: 0;
+  max-width: calc(var(--rdp-cell-size) * 7);
+  border-collapse: collapse;
+}
+
+.rdp-with_weeknumber .rdp-table {
+  max-width: calc(var(--rdp-cell-size) * 8);
+  border-collapse: collapse;
+}
+
+.rdp-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  text-align: left;
+}
+
+.rdp-multiple_months .rdp-caption {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.rdp-caption_dropdowns {
+  position: relative;
+  display: inline-flex;
+}
+
+.rdp-caption_label {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 0.25em;
+  white-space: nowrap;
+  color: currentColor;
+  border: 0;
+  border: 2px solid transparent;
+  font-family: inherit;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.rdp-nav {
+  white-space: nowrap;
+}
+
+.rdp-multiple_months .rdp-caption_start .rdp-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.rdp-multiple_months .rdp-caption_end .rdp-nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.rdp-nav_button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--rdp-cell-size);
+  height: var(--rdp-cell-size);
+  padding: 0.25em;
+  border-radius: 100%;
+}
+
+/* ---------- */
+/* Dropdowns  */
+/* ---------- */
+
+.rdp-dropdown_year,
+.rdp-dropdown_month {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.rdp-dropdown {
+  appearance: none;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: inherit;
+  opacity: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.rdp-dropdown[disabled] {
+  opacity: unset;
+  color: unset;
+}
+
+.rdp-dropdown:focus:not([disabled]) + .rdp-caption_label,
+.rdp-dropdown:active:not([disabled]) + .rdp-caption_label {
+  border: var(--rdp-outline);
+  border-radius: 6px;
+  background-color: var(--rdp-background-color);
+}
+
+.rdp-dropdown_icon {
+  margin: 0 0 0 5px;
+}
+
+.rdp-head {
+  border: 0;
+}
+
+.rdp-head_row,
+.rdp-row {
+  height: 100%;
+}
+
+.rdp-head_cell {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  text-align: center;
+  height: 100%;
+  height: var(--rdp-cell-size);
+  padding: 0;
+}
+
+.rdp-tbody {
+  border: 0;
+}
+
+.rdp-tfoot {
+  margin: 0.5em;
+}
+
+.rdp-cell {
+  width: var(--rdp-cell-size);
+  height: 100%;
+  height: var(--rdp-cell-size);
+  padding: 0;
+  text-align: center;
+}
+
+.rdp-weeknumber {
+  font-size: 0.75em;
+}
+
+.rdp-weeknumber,
+.rdp-day {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: var(--rdp-cell-size);
+  max-width: var(--rdp-cell-size);
+  height: var(--rdp-cell-size);
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 100%;
+}
+
+.rdp-day_today:not(.rdp-day_outside) {
+  font-weight: bold;
+}
+
+.rdp-day_selected:not([disabled]),
+.rdp-day_selected:focus:not([disabled]),
+.rdp-day_selected:active:not([disabled]),
+.rdp-day_selected:hover:not([disabled]) {
+  color: white;
+  background-color: var(--rdp-accent-color);
+}
+
+.rdp-day_selected:focus:not([disabled]) {
+  border: var(--rdp-outline-selected);
+}
+
+.rdp:not([dir='rtl']) .rdp-day_range_start:not(.rdp-day_range_end) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rdp:not([dir='rtl']) .rdp-day_range_end:not(.rdp-day_range_start) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.rdp[dir='rtl'] .rdp-day_range_start:not(.rdp-day_range_end) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.rdp[dir='rtl'] .rdp-day_range_end:not(.rdp-day_range_start) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rdp-day_range_end.rdp-day_range_start {
+  border-radius: 100%;
+}
+
+.rdp-day_range_middle {
+  border-radius: 0;
+}
+</style></head><body data-new-gr-c-s-check-loaded="14.1235.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1235.0"><div id="header"> <img src="../images/SUBURANI-ttl.png" id="suburani-logo" alt="logo"> <div id="appttl">Verbs <span id="vno">version 2</span></div> <div id="signout"><button id="signoutbtn">Sign&nbsp;out</button></div> </div> <div id="box" style="display: flex;"> <div id="btns"> <div> <button class="opt" id="setupbtn">Setup</button><button class="opt" id="reviewbtn">Review</button><button class="opt" id="resultsbtn">Results</button><button class="opt" id="progressbtn">Progress</button> <span id="sconum">1/1</span> </div> <div> <button class="opt" id="translatebtn" disabled="">Translate</button><button class="opt" id="parsebtn">Analyse</button><button class="opt" id="typebtn">Compose</button><button class="opt" id="personbtn">Persons</button><button class="opt" id="tensebtn">Tenses</button> </div> </div> <div id="innr"> <div id="setuppag" style="display: none;"> <div id="pic"><img id="pic" src="../images/fish.jpg" alt="mosaic"></div> <div id="setuptabs"><button class="opt" id="setupchapbtn">&nbsp;Set up by chapter&nbsp;</button><button class="opt" id="setupmanbtn" disabled="">&nbsp;Set up manually&nbsp;</button></div> <div id="setupchap" style="display: none;"> <span class="setuptd"><label for="chapsel">Chapter?</label></span> <span class="setuptv"><select id="chapsel"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option></select></span> </div> <div id="setupman" style="display: inline-block;"> <div class="ttl">CHOOSE ONE OR MORE VERBS</div> <div id="chkregbox"> Regular verbs <div id="actives"><label for="chkactvb">actives?</label> <input type="checkbox" id="chkactvb"></div> <div id="passives"><label for="chkpassvb">passives?</label> <input type="checkbox" id="chkpassvb"></div> </div> <div id="regvbs" style="display: block;"> <input type="checkbox" class="chkbtn" name="chkg" id="chkg1" value="0"><label for="chkg1">VOCO<br>call</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg2" value="1"><label for="chkg2">TENEO<br>hold</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg3" value="2"><label for="chkg3">MITTO<br>send</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg4" value="3"><label for="chkg4">AUDIO<br>hear</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg5" value="4"><label for="chkg5">CAPIO<br>take</label>  </div> <div id="chkdepbox"> <label class="vblab" for="chkdepvb">Deponent verbs</label> <div id="deponents"><input type="checkbox" id="chkdepvb"></div> </div> <div id="depvbs" style="display: none;"> <input type="checkbox" class="chkbtn" name="chkg" id="chkg6" value="5"><label for="chkg6">CONOR<br>try</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg7" value="6"><label for="chkg7">VEREOR<br>fear</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg8" value="7"><label for="chkg8">LOQUOR<br>speak</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg9" value="8"><label for="chkg9">ORIOR<br>rise</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg10" value="9"><label for="chkg10">PATIOR<br>suffer</label> </div>  <div id="chkirrbox"> Irregular verbs <div id="irractives"><label for="chkirractvb" id="labirractvb">actives?</label> <input type="checkbox" id="chkirractvb"></div> <div id="irrpassives"><label for="chkirrpassvb">passive of ferō?</label> <input type="checkbox" id="chkirrpassvb"></div> </div> <div id="irrvbs" style="display: none;"> <input type="checkbox" class="chkbtn" name="chkg" id="chkg11" value="10"><label for="chkg11">SUM<br>am</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg12" value="11"><label for="chkg12">POSSUM<br>am able</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg13" value="12"><label for="chkg13">EO<br>go</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg14" value="13"><label for="chkg14">FERO<br>carry</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg15" value="14"><label for="chkg15" id="labchkg15">FIO<br>become</label><br> <input type="checkbox" class="chkbtn" name="chkg" id="chkg16" value="15"><label for="chkg16">VOLO<br>want</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg17" value="16"><label for="chkg17">NOLO<br>don’t want</label> <input type="checkbox" class="chkbtn" name="chkg" id="chkg18" value="17"><label for="chkg18" id="labchkg18">MALO<br>prefer</label> </div>  <div id="setvbtense"> <div class="ttl">CHOOSE ONE OR MORE TENSES</div> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt1" value="p"><label for="chkt1">PRESENT</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt2" value="f"><label for="chkt2">FUTURE</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt3" value="i"><label for="chkt3">IMPERFECT</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt4" value="x"><label for="chkt4">PERFECT</label> <input type="checkbox" class="chkbtn2" name="chkt" id="chkt5" value="z"><label for="chkt5">PLUPERFECT</label> </div> <div id="setvbmood"> <div class="ttl">CHOOSE ONE OR MORE MOODS</div> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm1" value="i"><label for="chkm1">INDICATIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm2" value="s"><label for="chkm2">SUBJUNCTIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm3" value="d"><label for="chkm3">IMPERATIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm4" value="n"><label for="chkm4">INFINITIVE</label> <input type="checkbox" class="chkbtn2" name="chkm" id="chkm5" value="p"><label for="chkm5">PARTICIPLE</label> </div> <div class="ttl" id="shareprompt">SHARE SETTINGS FOR</div> <div id="sharebox"> <button class="opt" id="share000">Translate</button><button class="opt" id="share001">Analyse</button><button class="opt" id="share010">Compose</button><button class="opt" id="share011">Persons</button><button class="opt" id="share100">Tenses</button>  </div> <div id="prompt"></div> </div> </div> <div id="reviewpag" style="display: none;"> <div class="info">Explore the verb by pressing the white buttons.</div> <div id="btmbox"> <div id="btm"> <input type="radio" name="revt" id="revt1" value="p"><label for="revt1">pres</label> <input type="radio" name="revt" id="revt2" value="f" disabled=""><label for="revt2">fut</label> <input type="radio" name="revt" id="revt3" value="i" disabled=""><label for="revt3">impf</label> <input type="radio" name="revt" id="revt4" value="x" disabled=""><label for="revt4">perf</label> <input type="radio" name="revt" id="revt5" value="z" disabled=""><label for="revt5">plupf</label><br> <input type="radio" name="revv" id="revv1" value="a"><label for="revv1">act</label> <input type="radio" name="revv" id="revv2" value="p" disabled=""><label for="revv2">pass</label> <input type="radio" name="revv" id="revv3" value="d" disabled=""><label for="revv3">dep</label><br> <input type="radio" name="revm" id="revm1" value="i"><label for="revm1">indic</label> <input type="radio" name="revm" id="revm2" value="s" disabled=""><label for="revm2">subj</label> <input type="radio" name="revm" id="revm3" value="d" disabled=""><label for="revm3">imper</label> <input type="radio" name="revm" id="revm4" value="n" disabled=""><label for="revm4">infin</label> <input type="radio" name="revm" id="revm5" value="p" disabled=""><label for="revm5">ptcpl</label> <br> <input type="radio" name="revg" id="revg1" value="0"><label for="revg1">vocō</label> <input type="radio" name="revg" id="revg2" value="1" disabled=""><label for="revg2">teneō</label> <input type="radio" name="revg" id="revg3" value="2" disabled=""><label for="revg3">mittō</label> <input type="radio" name="revg" id="revg4" value="3" disabled=""><label for="revg4">audiō</label> <input type="radio" name="revg" id="revg5" value="4" disabled=""><label for="revg5">capiō</label> <input type="radio" name="revg" id="revg6" value="5" disabled=""><label for="revg6">cōnor</label> <input type="radio" name="revg" id="revg7" value="6" disabled=""><label for="revg7">vereor</label> <input type="radio" name="revg" id="revg8" value="7" disabled=""><label for="revg8">loquor</label> <input type="radio" name="revg" id="revg9" value="8" disabled=""><label for="revg9">orior</label> <input type="radio" name="revg" id="revg10" value="9" disabled=""><label for="revg10">patior</label> <input type="radio" name="revg" id="revg11" value="10" disabled=""><label for="revg11">sum</label> <input type="radio" name="revg" id="revg12" value="11" disabled=""><label for="revg12">possum</label> <input type="radio" name="revg" id="revg13" value="12" disabled=""><label for="revg13">eō</label> <input type="radio" name="revg" id="revg14" value="13" disabled=""><label for="revg14">ferō</label> <input type="radio" name="revg" id="revg15" value="14" disabled=""><label for="revg15" id="labrevg15">fīō</label> <input type="radio" name="revg" id="revg16" value="15" disabled=""><label for="revg16">volō</label> <input type="radio" name="revg" id="revg17" value="16" disabled=""><label for="revg17">nolō</label> <input type="radio" name="revg" id="revg18" value="17" disabled=""><label for="revg18" id="labrevg18">mālō</label> </div> </div> <div id="topbox"> <div id="top"></div> </div> </div> <div id="parsepag" style="display: block;"> <div id="parsebox" style="display: none;"> <div class="qtstbox"> <div id="qtst1">vocāmus</div> </div> <div class="info">Where would you find this Latin verb form?<br>Pick tense, voice, mood, and a <span class="qansb">???</span> box.</div> <div id="toptstbox"> <div id="toptst"><table><tbody><tr><th>1st s</th><td class="hint">I</td><td id="mphasv" class="slot mphsel"><span class="here">???</span></td></tr><tr><th>2nd s</th><td class="hint">you (sing.)</td><td id="mphbsv" class="slot"><span class="here">???</span></td></tr><tr><th>3rd s</th><td class="hint">he/she/it</td><td id="mphcsv" class="slot"><span class="here">???</span></td></tr><tr><th>1st p</th><td class="hint">we</td><td id="mphapv" class="slot"><span class="here">???</span></td></tr><tr><th>2nd p</th><td class="hint">you (pl.)</td><td id="mphbpv" class="slot"><span class="here">???</span></td></tr><tr><th>3rd p</th><td class="hint">they</td><td id="mphcpv" class="slot"><span class="here">???</span></td></tr></tbody></table></div> </div> <div id="btmtst"> <input type="radio" name="tstbt" id="tstbt1" value="p"><label for="tstbt1">pres</label> <input type="radio" name="tstbt" id="tstbt2" value="f" disabled=""><label for="tstbt2">fut</label> <input type="radio" name="tstbt" id="tstbt3" value="i" disabled=""><label for="tstbt3">impf</label> <input type="radio" name="tstbt" id="tstbt4" value="x" disabled=""><label for="tstbt4">perf</label> <input type="radio" name="tstbt" id="tstbt5" value="z" disabled=""><label for="tstbt5">plupf</label> <br> <input type="radio" name="tstbv" id="tstbv1" value="a"><label for="tstbv1">act</label> <input type="radio" name="tstbv" id="tstbv2" value="p" disabled=""><label for="tstbv2">pass</label> <input type="radio" name="tstbv" id="tstbv3" value="d" disabled=""><label for="tstbv3">dep</label> <br> <input type="radio" name="tstbm" id="tstbm1" value="i"><label for="tstbm1">indic</label> <input type="radio" name="tstbm" id="tstbm2" value="s" disabled=""><label for="tstbm2">subj</label> <input type="radio" name="tstbm" id="tstbm3" value="d" disabled=""><label for="tstbm3">imper</label> <input type="radio" name="tstbm" id="tstbm4" value="n" disabled=""><label for="tstbm4">infin</label> <input type="radio" name="tstbm" id="tstbm5" value="p" disabled=""><label for="tstbm5">ptcpl</label>  </div> </div> <div id="translatebox" style="display: block;"> <div class="info">Translate into English:</div> <div class="qtstbox"> <div id="qtst2">vocāmus</div> </div> <div id="xlatbox"> <input type="text" id="xlatinp" maxlength="25" autocorrect="off" autocapitalize="none" autocomplete="off" spellcheck="false"><span id="xlatyesno"></span> </div> <div id="tellmemore" style="display: none;"> <p>Use these translations for the verbs:</p> <table class="xlats"> <tbody><tr><td class="la">vocō</td><td class="en">call</td> <td class="la">teneō</td><td class="en">hold</td> <td class="la">mittō</td><td class="en">send</td></tr> <tr><td class="la">audiō</td><td class="en">hear</td> <td class="la">capiō</td><td class="en">take</td> <td class="la">cōnor</td><td class="en">try</td></tr> <tr><td class="la">vereor</td><td class="en">fear</td> <td class="la">loquor</td><td class="en">speak</td> <td class="la">orior</td><td class="en">rise</td></tr> <tr><td class="la">patior</td><td class="en">suffer</td> <td class="la">sum</td><td class="en">am</td> <td class="la">possum</td><td class="en">am able</td></tr> <tr><td class="la">eō</td><td class="en">go</td> <td class="la">ferō</td><td class="en">carry</td> <td class="la">fīō</td><td class="en">become</td></tr> <tr><td class="la">volō</td><td class="en">want</td> <td class="la">nolō</td><td class="en">don’t want</td> <td class="la">mālō</td><td class="en">prefer</td></tr> </tbody></table> <div class="instruc"> <ul> <li>Include ‘I’, ‘you’, etc, if shown in the verb.</li> <li>Use ‘you’ for both singular and plural.</li> <li>Use ‘he’, ‘she’, or ‘it’, not ‘he/she/it’.</li> <li>No case, number, gender for participles.</li> <li>Don’t indicate if a verb is subjunctive.</li> <li>You can use abbreviations, e.g. I’m or he’s.</li> </ul> <div id="tellmoreprompt">Press TELL ME MORE again to hide this.</div> </div> </div> </div> <div id="qpromptbox" style="display: block;"> <div id="qprompt"></div> </div> <div id="btmresbox"> <div id="btmres" style="display: none;"></div> </div> <div id="btnsparse"> <button class="opt" id="tellmorebtn" style="display: inline-block;">Tell me more</button> <button class="opt" id="submitbtn" style="display: inline-block;">Submit</button> <button class="opt" id="nextparsebtn" style="display: none;">Next</button> </div> </div> <div id="typepag" style="display: none;"> <div id="testcbox"> <div> <div id="quest"></div> <div id="typefeedback"></div> <div> <div id="enginpdiv"> <input type="text" id="enginp" maxlength="25" autocorrect="off" autocapitalize="none" autocomplete="off" spellcheck="false"><span id="yesno"></span> </div> </div> </div> <div id="btnstype"> <button class="opt" id="nexttypebtn">Next</button> </div> </div> </div> <div id="personpag" style="display: none;"> <div id="personqword"></div> <table id="persontab">  <tbody><tr> <th class="thcnt"></th><th class="thcnt">SINGULAR</th><th class="thcnt">PLURAL</th> </tr> <tr> <th class="thrgt">1ST</th> <td><button id="prsx1" class="personbtn"><span id="prsz1" class="eng"><span id="prsy1" class="num">1</span>I</span><span id="prsw1" class="tikross"></span></button></td> <td><button id="prsx4" class="personbtn"><span id="prsz4" class="eng"><span id="prsy4" class="num">4</span>we</span><span id="prsw4" class="tikross"></span></button></td> </tr> <tr> <th class="thrgt">2ND</th> <td><button id="prsx2" class="personbtn"><span id="prsz2" class="eng"><span id="prsy2" class="num">2</span>you</span><span id="prsw2" class="tikross"></span></button></td> <td><button id="prsx5" class="personbtn"><span id="prsz5" class="eng"><span id="prsy5" class="num">5</span>you</span><span id="prsw5" class="tikross"></span></button></td> </tr> <tr> <th class="thrgt">3RD</th> <td><button id="prsx3" class="personbtn"><span id="prsz3" class="eng"><span id="prsy3" class="num">3</span>he/she/it</span><span id="prsw3" class="tikross"></span></button></td> <td><button id="prsx6" class="personbtn"><span id="prsz6" class="eng"><span id="prsy6" class="num">6</span>they</span><span id="prsw6" class="tikross"></span></button></td> </tr> </tbody></table> </div> <div id="tensepag" style="display: none;"> <div id="tensebox"> <div id="tenseqword"></div> <div id="tensebtns"> <button id="tnsx1" class="tensebtn"><span id="tnsz1" class="eng"><span id="tnsy1" class="num">1</span>Present</span><span id="tnsw1" class="tikross"></span></button> <button id="tnsx2" class="tensebtn"><span id="tnsz2" class="eng"><span id="tnsy2" class="num">2</span>Future</span><span id="tnsw2" class="tikross"></span></button> <button id="tnsx3" class="tensebtn"><span id="tnsz3" class="eng"><span id="tnsy3" class="num">3</span>Imperfect</span><span id="tnsw3" class="tikross"></span></button> <button id="tnsx4" class="tensebtn"><span id="tnsz4" class="eng"><span id="tnsy4" class="num">4</span>Perfect</span><span id="tnsw4" class="tikross"></span></button> <button id="tnsx5" class="tensebtn"><span id="tnsz5" class="eng"><span id="tnsy5" class="num">5</span>Pluperfect</span><span id="tnsw5" class="tikross"></span></button> </div> </div> </div> <div id="resultspag" style="display: none;"> <div id="resultlist"></div> </div> <div id="progresspag" style="display: none;"> <div id="selectors"> <div id="chapselectbox"> <label for="chapselect">Total scores up to chapter</label> <select id="chapselect"> <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option> <option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option> <option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option> <option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option> <option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option> <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option> <option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option> <option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option> </select> </div> <div id="qtypeselbox"> <input type="radio" name="qtypegrp" id="qtypebtntranslate" value="1" checked=""><label for="qtypebtntranslate">Translate</label> <input type="radio" name="qtypegrp" id="qtypebtnanalyse" value="2"><label for="qtypebtnanalyse">Analyse</label> <input type="radio" name="qtypegrp" id="qtypebtncompose" value="3"><label for="qtypebtncompose">Compose</label> </div> <div id="verbselbox"> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnreg" value="0" checked=""><label for="vbbtnreg">regular</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnsum" value="1"><label for="vbbtnsum">sum/possum</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtneo" value="2"><label for="vbbtneo">eō/ferō/fīō</label><br> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnvolo" value="3"><label for="vbbtnvolo">volō/nōlō/mālō</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtnperson" value="4"><label for="vbbtnperson">persons</label> <input type="radio" name="verbgrp" class="verbgrp" id="vbbtntense" value="5"><label for="vbbtntense">tenses</label> </div> </div> <div id="progressdata"></div> </div> </div> </div> <div id="feedback" style="display: none;"></div> <div id="loading" style="display: none;">Loading ...</div><br><style>@font-face{font-family:fnt;font-style:normal;font-weight:400;src:url(../fonts/openr.woff2) format('woff2')}@font-face{font-family:fnt;font-style:normal;font-weight:600;src:url(../fonts/openb.woff2) format('woff2')}@font-face{font-family:fnt;font-style:italic;font-weight:400;src:url(../fonts/openi.woff2) format('woff2')}*{margin:0;padding:0}*,::after,::before,:after,:before,button{box-sizing:border-box}body,select{font-family:fnt,sans-serif}body{font-size:16px;background-color:#fff;color:#000;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;overflow-x:hidden;overflow-y:auto}button{-webkit-appearance:button;-webkit-writing-mode:horizontal-tb!important;writing-mode:horizontal-tb!important;align-items:flex-start;background-color:#efefef;border-color:#767676;border-image:initial;border-radius:3px;border-style:outset;border-width:1px;color:#000;cursor:default;display:inline-block;font-family:fnt;font-size:.8rem;letter-spacing:normal;margin:0;min-width:2.5rem;padding:.35rem .3rem .25rem;text-align:center;text-indent:0;text-rendering:auto;text-shadow:none;text-transform:uppercase;word-spacing:normal}button:hover{background-color:#dcdcdc}#header{width:100%;padding:0 .25rem;height:2.5rem;background-color:#ee5736;display:flex;align-items:center;justify-content:space-between}#suburani-logo{height:2.3rem;width:auto}#appttl{font-size:1.1rem;line-height:2.5rem;margin-left:.25rem;color:#eee;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#vno{font-size:.8rem;color:#ddd}#loading{text-align:center;color:#000;background-color:#f0f9ff;border:1px solid #d0d9df;border-radius:.5rem;box-shadow:3px 3px 4px rgba(0,32,16,.4);width:21rem;padding:.35rem .5rem;margin:2rem auto 0}#box{display:none;margin:.25rem auto 0;font-size:1rem;line-height:1.5em;border-top:0;flex-direction:column}#sconum,.opt:hover{background-color:#5f9ea0;color:#fff}#sconum{border-radius:1em;font-size:1em;display:inline-block;text-align:center;padding:.2rem .35em;margin-left:.1em}#hdr{font-size:100%;width:16rem;margin:.2rem auto}#ttl{display:inline-block;font-size:1.1rem;margin:0 1rem 0 .3rem;line-height:1.5;border-bottom:1px solid #ccc;cursor:pointer;text-shadow:1px 1px 1px #ddd}#helpdiv{overflow:auto;height:calc(100% - 2.8em);display:none;margin:0 auto;max-width:30em;padding:.5em}#help{text-align:left}#innr{background-color:#fff;margin:0 auto;padding:0;overflow:hidden;height:calc(100% - 5em)}#feedback{margin:1rem 0;color:#c40;font-weight:700;display:none}select{font-size:1em}p{margin:.5rem}#feedback,.centr{text-align:center}.hint{color:#666;font-style:italic;padding:0 .4rem}.ttl{font-size:.65rem;line-height:1.3;margin-top:.5rem;color:#04c}#chkdepbox,#chkirrbox,#chkregbox{margin-top:.4rem}#depvbs,#irrvbs,#regvbs,input[type=radio]{display:none}#actives,#deponents,#irractives,#irrpassives,#passives,.vblab{display:inline-block}#irrpassives,#passives{margin-left:.35rem}.vblab{width:7.5rem}#btns{text-align:center}#setuptabs{display:flex;align-items:center;justify-content:space-evenly;width:100%;height:2.5rem}#setupchap{margin:.5rem 0}#sharebox{margin-top:.4rem}.textButton{color:#00e;font-size:inherit;border:1px solid #00e;background:0 0;outline-style:none;cursor:pointer}#sharebox,.opt{text-align:center}.opt{display:inline-block;font-size:80%;color:#000;background-color:#ffeb59;height:2rem;margin:.2rem .1rem;padding:0 .1rem;font-family:fnt,sans-serif;font-weight:400;cursor:pointer;border:1px solid #888;border-radius:2px;text-transform:none}.opt:hover{border:1px solid #5f9ea0}.opt:disabled{background-color:#fff;border:1px solid #c40;cursor:auto;color:#222}.grey:disabled{color:#666;background-color:#eee;border:1px solid #aaa}#nextparsebtn:disabled,#nexttypebtn:disabled{color:#aaa;border:1px solid #aaa}label{color:#000}input[type=radio]+label{font-size:.9em;display:inline-block;margin:2px 0;padding:.4em 0 .5em;min-width:4.2em;height:2em;line-height:1;background-color:#fff;color:#000;text-align:center;border:1px solid #000;user-select:none}.chkbtn2:checked+label,.chkbtn:checked+label,input[type=radio]:checked+label{background-color:#087acb;color:#fff;border:1px solid #087acb}input[type=radio]:disabled+label{background-color:#f8f8f8;color:#888;border:1px solid #ccc;display:none}.chkbtn,.chkbtn2{position:relative;display:none}.chkbtn+label{font-size:.65em;padding-top:.15rem;margin:2px 0;min-width:6.2em;height:2.8em;line-height:1.2;background-color:#fff;color:#000;text-align:center;border:1px solid #000;user-select:none}.chkbtn+label,.chkbtn2+label,.sc{display:inline-block}.chkbtn2+label{font-size:.65em;margin:2px 0;min-width:6.2em;height:2.8em;line-height:2.8;background-color:#fff;color:#000;text-align:center;border:1px solid #000;user-select:none}.sc{font-size:.65rem;min-width:4rem}table{border-collapse:collapse}#parsepag,#personpag,#reviewpag,#setuppag,#tensepag,#typepag{margin-top:.5em;height:98%;overflow:auto;width:27rem}#parsepag,#personpag,#resultspag,#reviewpag,#tensepag,#typepag{display:none}#personpag{text-align:center}#testcbox{display:inline-block;margin:0 auto;max-width:22em}#testcbox,#typepag{text-align:center}#setuppag,#toptstbox{padding:.1rem 0 0;text-align:center}#toptstbox{margin-bottom:.5rem}#topbox{padding:0;text-align:center}#btmbox{margin-top:.8em}#top,#toptst{display:inline-block;margin:0 auto}#btmbox,#btmresbox,#parsebox,#qpromptbox,#review,#translatebox,.qtstbox{text-align:center}#btm,#btmres,#btmtst,#setupman{display:inline-block;margin:0 auto;text-align:left}#qtst1,#qtst2,#qtst3{display:inline-block;font-size:1.2rem;font-weight:700;color:#03a;margin:0 0 .5em;padding:.8em .5em;text-align:center;min-width:10em}#prompt,#score{text-align:center}#score{display:inline-block;border:1px solid #aaa;margin:0 0 0 1em;padding:.2em .5em;min-width:4em}#prompt{display:none;color:#c40;margin-top:.5rem}#btnsparse,#btnstype,#btnsubmit{margin:1em 0 0;text-align:center}#qprompt,.qans{display:inline-block}#qprompt{color:#c40;margin:0 auto}#qno,#qok{color:#1db100;font-weight:700;font-size:1em}#qno{color:#c40;font-size:1.2em}.qans{color:#087acb;margin-left:.5em;padding:0;line-height:1.2em;cursor:pointer}.qansa{color:#04c}.qansb{color:#c40}.rightansw{background-color:#0d0}.otheransw{background-color:#fbf400}.wrongansw{background-color:red}#classtab tr,.slot{cursor:pointer}.youcld{color:#000}#pic,.noform{display:inline-block}.noform{padding:.5em 1em;margin-bottom:.8em;background-color:#c40;color:#fff}.info,.info2{text-align:center}.info2{display:flex;align-items:center;justify-content:center}.qerror{background-color:#c40;color:#fff;padding:2px 3px}#pic{margin-bottom:.5rem;width:300px;height:131px}#xlatyesno,#yesno{display:inline-block;margin-left:.1rem;width:1.5rem}#okbox{text-align:center}#quizbox{line-height:1.4em;overflow:auto;padding-top:.5em;margin:1em auto}#qzparsebox{color:#c00000;margin-top:.5em}#qzscorebox{color:#0000c0;margin:.5em 0 1em}#qzotherbox{color:#000;margin-bottom:.5em}#qztick{display:none;position:absolute;top:0;left:0}#qztickimg{width:24px;height:24px}#qzcross{display:none;position:absolute;top:0;left:0}#qzcrossimg{width:24px;height:24px}.hi,.prs{color:#c00000}.prs{margin-top:.5em}.analysis{margin:.7rem 0;font-weight:700;color:#03a}.grk{color:#000;background-color:#cde;padding:0 .2em;font-weight:700}.welldone{color:#600060}.prefix{color:#036}.possible{color:#c40}.mphsel{background-color:#087acb}.mphsel>.here{color:#fff}.here,.qzbtn{text-align:center}.here{color:#c40;display:inline-block;width:100%}.qzbtn{font-family:fnt,sanserif;font-size:100%;min-width:2.7em;margin:2px .5em 0 0;padding:0 .1em;line-height:2em;background-color:#fff;color:#000;border:1px solid #000;user-select:none}#xlatinp{font-family:fnt,sans-serif;font-size:1rem;padding:.2rem .5rem;width:15rem;border:1px #aaa solid}#enginpdiv,.qzbtn{display:inline-block}#enginpdiv{margin:.5em 0 1em;text-transform:none}#enginp{font-family:fnt,sans-serif;font-size:1rem;padding:.2rem .5rem;width:15rem;border:1px #aaa solid}#grkinp,#scorec{display:inline-block;border:1px solid #444;margin:0;line-height:24px;height:24px}#grkinp{width:157px;text-align:left;padding-left:5px}#scorec{width:66px;text-align:center}#quest{margin-bottom:.5em}#typefeedback{margin:.5em 0;border-top:1px solid #888;border-bottom:1px solid #888;padding:.5em 0}.tikross{float:right;padding-right:5px}.tensebtn{margin:0 .2rem .5rem;text-align:left;text-transform:none;font-family:fnt,sans-serif;font-size:1rem;padding:.1rem .5rem;background:#c6e2f3;border:1px solid #087acb;border-radius:1rem;cursor:pointer;display:flex;align-items:center}.tensebtn:hover{background:#d6e6f6}.tensebtn:focus{outline:0}#tensebox,#tensebtns{display:flex;flex-direction:column;align-items:center}#tensebtns{flex-direction:row;flex-wrap:wrap;justify-content:center}#tenseqword{font-size:1.4rem;margin:1rem 0;text-align:center}.num{width:1.3rem;color:#04f;padding:0 0 0 .2rem;text-align:left;font-size:.8rem}#persontab,.eng,.num{display:inline-block}.eng{width:7rem;padding:.2rem .1rem;font-size:1.1rem;text-align:left}.tikross{width:1rem;text-align:right}th{background-color:#f8f8f8;font-weight:400;color:#087acb}.thcnt,.thrgt,td{background-color:#fff}td,th{padding:2px;text-align:left;border:1px solid #000;user-select:none}td{min-width:5em}#persontab{border-collapse:collapse;border:0}#persontab td,#persontab th{border:0;user-select:none}.thcnt,.thrgt{text-align:right;font-weight:400;font-size:.8rem;color:#888}.thcnt{text-align:center}.personbtn{margin:0 .2rem .5rem;text-align:left;text-transform:none;font-family:fnt,sans-serif;font-size:1rem;padding:.1rem .5rem;background:#c6e2f3;border:1px solid #087acb;border-radius:1rem;cursor:pointer;display:flex;align-items:center}.personbtn:hover{background:#d6e6f6}#tabdiv:focus,.personbtn:focus{outline:0}#personbox,#personbtns{display:flex;flex-direction:column;align-items:center}#personbtns{flex-direction:row;flex-wrap:wrap;justify-content:center}#personqword{font-size:1.4rem;margin:1rem 0;text-align:center}#resultspag{height:100%;line-height:1.3;font-size:1em;overflow:auto}#nores{margin-top:1em;text-align:center;color:#c40}.answ{padding:.5em;border-bottom:1px solid #ccc}#tellmemore{text-align:left;display:none}#tellmoreprompt{font-style:italic;text-align:center;color:#03a}.en,.la,.xlats{border-collapse:collapse;border:0;font-size:.9rem}.la{min-width:2rem;color:#c40;background-color:#eee;padding-left:.5em}.en,caption{background-color:#f8f8f8}.en{min-width:2rem;color:#03a;padding-right:.5em}ul{padding-inline-start:16px}#progresspag{display:flex;flex-direction:column}#progressdata{overflow:auto;margin:1rem 1rem 0;max-width:94vw}#selectors{text-align:center}#chapselectbox{margin-bottom:.5rem}#typeselectbox{margin-bottom:.25rem}caption{text-align:left;font-style:italic;padding:.25em .5em .5em}#classtab td,#classtab th{font-weight:400;padding:.2em .1em;vertical-align:text-top;text-align:center;border:1px solid #aaa;line-height:1;min-width:1rem}#classtab th{background-color:#fff;color:#000;font-size:.7rem;position:sticky;position:-webkit-sticky;top:0;z-index:52}#classtab td{font-size:.8rem}#classtab tr:nth-child(odd){background-color:rgba(0,0,0,.05)}#classtab tr:nth-child(even){background-color:rgba(255,255,255,.05)}#classtab .indic,.imper,.indic,.infin,.ptcpl,.subjv{background-color:#e2f0cb;text-align:center;min-width:2rem}.imper,.infin,.ptcpl,.subjv{background-color:#fcfaa6}.imper,.infin,.ptcpl{background-color:#ffc2d3}.imper,.ptcpl{background-color:#c6dff7}.ptcpl{background-color:#dfccf1}#classtab .infin,#classtab .subjv,.persn,.tense{background-color:#fcfaa6;text-align:center;min-width:2rem}#classtab .infin,.tense{background-color:#ffc2d3}#qtypeselbox input[type=radio]{line-height:1.5;font-family:fnt,sans-serif;font-size:1rem;margin:.5rem 0 .5rem 1rem;padding:.2rem .25rem;display:inline-block}#qtypeselbox label{margin-left:.25rem}#qtypeselbox input[type=radio]+label{font-size:1rem;display:inline-block;margin:2px 0;padding:.4em 0 .5em .25em;height:2em;line-height:1;background-color:#fff;color:#000;text-align:left;border:0;user-select:none}#qtypeselbox input[type=radio]:checked+label{background-color:#fff;color:#000;border:0}#qtypeselbox input[type=radio]:disabled+label{background-color:#fff;color:#000;border:0;display:none}#verbselbox input[type=radio]+label{font-size:em;display:inline-block;margin:2px 0;padding:.4em .5em .5em;min-width:4.2em;height:2em;line-height:1;background-color:#fff;color:#000;text-align:center;border:1px solid #000;user-select:none}#verbselbox input[type=radio]:checked+label{background-color:#087acb;color:#fff;border:1px solid #087acb}#verbselbox input[type=radio]:disabled+label{background-color:#f8f8f8;color:#888;border:1px solid #ccc;display:none}#classtab .imper,#classtab .ptcpl{background-color:#c6dff7;text-align:center;min-width:2rem}#classtab .ptcpl{background-color:#dfccf1}#classtab .persn,#classtab .tense{background-color:#fcfaa6;text-align:center;min-width:2rem}#classtab .tense{background-color:#ffc2d3}.hot0{background-color:#f56a6d}.hot1{background-color:#fb8172}.hot2{background-color:#fe9b74}.hot3{background-color:#fcb877}.hot4{background-color:#fbd282}.hot5{background-color:#feeb84}.hot6{background-color:#e2e185}.hot7{background-color:#c2d981}.hot8{background-color:#a1d080}.hot9{background-color:#83c77c}.hot10{background-color:#67bb7d}.cold{background-color:#d0e8ff}#classtab .moodhdr{font-family:Tahoma,sans-serif;font-size:.6rem;min-width:1rem;background-color:#fafad2;color:#000}#classtab .moodgap{background-color:#fafad2;border-width:1px;border-style:solid;border-color:#fff #aaa}#classtab .verbhdr,.lnk,.lnk2{font-family:Tahoma,sans-serif;font-size:.6rem}#classtab .verbhdr{font-weight:700;min-width:1.5rem;background-color:#fcfcfc;color:#c40}#classtab .verbgap{background-color:#fcfcfc;border-width:1px;border-style:solid;border-color:#fff #aaa}.lnk,.lnk2{color:#06f}.lnk2{background-color:#fdb}</style><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;942f06c8fbb4decc&quot;,&quot;version&quot;:&quot;2025.4.0-1-g37f21b1&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;01ce88f7f85e4ab3823fd21107f3487a&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
