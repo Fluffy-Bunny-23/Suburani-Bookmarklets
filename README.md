@@ -10,8 +10,8 @@ Suburani Bookmarklets is my personal collection of Bookmarklets to help with qui
 
 ## Other tools
 
-1. This great script by [ilslaoaycd](https://github.com/ilslaoaycd/), [purpose-games-hack](https://github.com/ilslaoaycd/purpose-games-hack)
+1. This script by [ilslaoaycd](https://github.com/ilslaoaycd/), [purpose-games-hack](https://github.com/ilslaoaycd/purpose-games-hack)
 
 ### Disclosure
 
-This code was made using Generative AI, an OpenAI free account, to be specific.
+This code was made using Generative AI.
