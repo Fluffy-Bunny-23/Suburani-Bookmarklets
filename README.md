@@ -8,7 +8,7 @@ Suburani Bookmarklets is my personal collection of Bookmarklets to help with qui
 
 [Youtube Video](https://youtu.be/JmdDY4n4rtU)
 
-## Other tools I use
+## Other tools
 
 1. This great script by [ilslaoaycd](https://github.com/ilslaoaycd/), [purpose-games-hack](https://github.com/ilslaoaycd/purpose-games-hack)
 
