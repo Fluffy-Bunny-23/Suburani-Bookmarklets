@@ -1,13 +1,16 @@
 typeAndEnter(text) {
     Send text
     Send "{Enter}"
-    Sleep 150
+    Sleep 1500
     Send "{Enter}"
 }
 
-F14 & 1:: typeAndEnter("voco")
-F14 & 2:: typeAndEnter("vocas")
-F14 & 3:: typeAndEnter("vocat")
-F14 & 4:: typeAndEnter("vocamus")
-F14 & 5:: typeAndEnter("vocatis")
-F14 & 6:: typeAndEnter("vocant")
+NumpadSub:: typeAndEnter("tene")
+NumpadAdd:: typeAndEnter("tenete")
+
+Numpad7:: typeAndEnter("tenui")
+Numpad8:: typeAndEnter("tenuisti")
+Numpad9:: typeAndEnter("tenuit")
+Numpad4:: typeAndEnter("tenuimus")
+Numpad5:: typeAndEnter("tenuistis")
+Numpad6:: typeAndEnter("tenuerunt")
