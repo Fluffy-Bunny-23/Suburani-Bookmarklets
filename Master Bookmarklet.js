@@ -36,7 +36,7 @@ javascript:(function(){
                 chapter = parseInt(chapter, 10);
                 if (chapter > 0 && chapter <= 40) {
                   var url = "https://hands-up-education.org/suburani_full/chap" + chapter + "/chap" + chapter + "_na.html";
-                  window.location.href = url;
+                  window.open(url, '_blank');
                 } else {
                   alert("Please enter a chapter number between 1 and 40.");
                 }
@@ -52,7 +52,7 @@ javascript:(function(){
           code: function() {
             var n = prompt("Enter the chapter number (1-40):");
             if (n && !isNaN(n) && Number(n) <= 40) {
-              window.location.href = "https://hands-up-education.org/suburani_full/activebooks/activebook.html?n=" + n;
+              window.open("https://hands-up-education.org/suburani_full/activebooks/activebook.html?n=" + n, '_blank');
             } else {
               alert(n > 40 ? "Error: Chapter number must not be above 40." : "Please enter a valid number.");
             }
@@ -64,7 +64,7 @@ javascript:(function(){
           code: function() {
             var u = prompt("Enter the translation number. e.g. 7.3");
             if (u) {
-              window.location.href = "https://hands-up-education.org/suburani_full/activities/automark.html?fn=" + u.replace(/\./g, "-");
+              window.open("https://hands-up-education.org/suburani_full/activities/automark.html?fn=" + u.replace(/\./g, "-"), '_blank');
             }
           }
         },
@@ -74,7 +74,7 @@ javascript:(function(){
           code: function() {
             var u = prompt("Enter the sorting number. e.g. 7.3");
             if (u) {
-              window.location.href = "https://hands-up-education.org/suburani_full/activities/sort.html?fn=" + u.replace(/\./g, "-");
+              window.open("https://hands-up-education.org/suburani_full/activities/sort.html?fn=" + u.replace(/\./g, "-"), '_blank');
             }
           }
         }
