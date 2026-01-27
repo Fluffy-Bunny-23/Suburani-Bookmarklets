@@ -16,6 +16,7 @@ The **Master Bookmarklet** is a unified interface that provides easy access to a
 
 - **Navigation Tools**: Quickly navigate to chapters, activebooks, translation exercises, and sorting exercises
 - **Cheats & Helpers**: Access AI-powered verb trainer and vocabulary helper
+- **Smart Suggestions**: Automatically suggests the most relevant helper based on the current Suburani URL
 - **User-Friendly Interface**: Clean modal UI with organized categories
 - **Easy to Use**: Click once to see all options, click again to close
 
