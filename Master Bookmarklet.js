@@ -6,6 +6,16 @@ javascript:(function(){
     return;
   }
 
+  // Detect current URL and determine suggestion
+  const currentUrl = window.location.href;
+  let suggestedScript = null;
+  
+  if (currentUrl.includes('https://hands-up-education.org/suburani_full/activities/vt.html')) {
+    suggestedScript = 'Vocab Helper';
+  } else if (currentUrl.match(/https:\/\/hands-up-education\.org\/suburani_full\/activities\/verbs\.html\?c=\d+/)) {
+    suggestedScript = 'Verb Trainer AI';
+  }
+
   // Create modal container
   const modal = document.createElement('div');
   modal.id = 'suburani-master-modal';
@@ -19,6 +29,14 @@ javascript:(function(){
   const header = document.createElement('div');
   header.innerHTML = '<h2 style="margin:0 0 20px 0;color:#333;font-size:24px;border-bottom:2px solid #4285f4;padding-bottom:10px;">Suburani Master Bookmarklet</h2>';
   content.appendChild(header);
+
+  // Add suggestion banner if applicable
+  if (suggestedScript) {
+    const suggestion = document.createElement('div');
+    suggestion.style.cssText = 'background:#fff3cd;border:2px solid #ffc107;border-radius:8px;padding:12px;margin-bottom:20px;color:#856404;font-weight:600;';
+    suggestion.innerHTML = '💡 Suggested: ' + suggestedScript + ' (based on current page)';
+    content.appendChild(suggestion);
+  }
 
   // Scripts data
   const scripts = [
@@ -345,17 +363,30 @@ javascript:(function(){
     categoryDiv.appendChild(categoryHeader);
 
     category.items.forEach(script => {
+      const isSuggested = script.name === suggestedScript;
       const scriptBtn = document.createElement('div');
-      scriptBtn.style.cssText = 'background:#f5f5f5;padding:12px;margin:8px 0;border-radius:8px;cursor:pointer;transition:all 0.2s;border:2px solid transparent;';
-      scriptBtn.innerHTML = `<div style="font-weight:600;color:#333;margin-bottom:4px;">${script.name}</div><div style="font-size:12px;color:#666;">${script.description}</div>`;
+      
+      // Highlight suggested script with yellow background
+      if (isSuggested) {
+        scriptBtn.style.cssText = 'background:#fff3cd;padding:12px;margin:8px 0;border-radius:8px;cursor:pointer;transition:all 0.2s;border:2px solid #ffc107;';
+      } else {
+        scriptBtn.style.cssText = 'background:#f5f5f5;padding:12px;margin:8px 0;border-radius:8px;cursor:pointer;transition:all 0.2s;border:2px solid transparent;';
+      }
+      
+      scriptBtn.innerHTML = `<div style="font-weight:600;color:#333;margin-bottom:4px;">${script.name}${isSuggested ? ' ⭐' : ''}</div><div style="font-size:12px;color:#666;">${script.description}</div>`;
       
       scriptBtn.onmouseenter = function() {
         this.style.background = '#e8f0fe';
         this.style.borderColor = '#4285f4';
       };
       scriptBtn.onmouseleave = function() {
-        this.style.background = '#f5f5f5';
-        this.style.borderColor = 'transparent';
+        if (isSuggested) {
+          this.style.background = '#fff3cd';
+          this.style.borderColor = '#ffc107';
+        } else {
+          this.style.background = '#f5f5f5';
+          this.style.borderColor = 'transparent';
+        }
       };
       scriptBtn.onclick = function() {
         modal.remove();
